@@ -125,9 +125,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Krisnadiwangga/Sayonara-Userbot")
+    "https://github.com/ybgskr12/BAGAS-USERBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Sayonara-Userbot")
+    "UPSTREAM_REPO_BRANCH", "BAGAS-USERBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -195,7 +195,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀"
+REPO_NAME = os.environ.get("REPO_NAME) or "💀BAGAS-USERBOT💀
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
