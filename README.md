@@ -36,7 +36,7 @@
   
   # Heroku
   
-  <a href="https://heroku.com/deploy?template=https://https://github.com/ybgskr12/Sayonara-Userbot.git"><img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
+  <a href="https://heroku.com/deploy?template=https://https://github.com/ybgskr12/BAGAS-USERBOT.git"><img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
 
 
 <br>
