@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ybgskr12/Sayonara-Userbot.",
+  "repository": "https://github.com/ybgskr12/BAGAS-USERBOT.",
   "telegram": "https://t.me/ybgskr12",
   "success_url": "https://t.me/gsahmanja",
   "stack": "container",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg",
+      "value": "https://telegra.ph/file/d59b033eec98526ef3fc4.jpg",
       "required": true
      },
      "STRING_SESSION": {
