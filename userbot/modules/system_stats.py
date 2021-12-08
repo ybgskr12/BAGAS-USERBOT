@@ -1,4 +1,4 @@
-# System Stats SAYONARA-USERBOT
+# System Stats BAGAS-USERBOT
 # by fix rendy
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"❃ **😎Versi Bot**   ➥ `7.1` \n"
         f"❃ **📕Modul**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/allfucek) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -314,8 +314,8 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
-        f"┣  `Support  :` [Groups](https://t.me/Naraxmusic) \n"
+        f"┣  `GitHub   :` [ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
+        f"┣  `Support  :` [Groups](https://t.me/allfucek) \n"
         f"┣  `Owner    :` [ʙᴀɢᴀs](https://t.me/ybgskr_ex) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
