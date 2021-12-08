@@ -195,7 +195,7 @@ async def dyno_usage(dyno):
                 f"➠ **Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
-                f"➠ **REPO** : [BAGAS](https://github.com/ybgskr12/Sayonara-Userbot) \n"
+                f"➠ **REPO** : [ʙᴀɢᴀs](https://github.com/ybgskr12/Sayonara-Userbot) \n"
                )
             await asyncio.sleep(5)
             await event.delete()
