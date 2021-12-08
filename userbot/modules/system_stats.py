@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ Versi:** \n "
+            "**☛**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Sayonara](t.me/Sayonara_nih) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴀɢᴀs](t.me/ybgskr_ex) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -261,7 +261,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f" **💀sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ💀** \n"
+        f" **          💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **👑Owner**       ➥ `{DEFAULTUSER}` \n"
         f"❃ **🤠Username**    ➥ `@{user.username}` \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Sayonara](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+        f"┣  `GitHub   :` [ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
         f"┣  `Support  :` [Groups](https://t.me/Naraxmusic) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_nih) \n"
+        f"┣  `Owner    :` [ʙᴀɢᴀs](https://t.me/ybgskr_ex) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
