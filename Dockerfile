@@ -3,13 +3,13 @@ FROM xluxz/geezproject:buster
 # Sayonara-Userbot
 # Sayonara
 
-RUN git clone -b Sayonara-Userbot https://github.com/krisnadiwangga/Sayonara-Userbot /root/userbot
+RUN git clone -b BAGAS-USERBOT https://github.com/ybgskr12/BAGAS-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/krisnadiwangga/Sayonara-Userbot/Sayonara-Userbot/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/ybgskr12/BAGAS-USERBOT/BAGAS-USERBOT/requirements.txt
 
 EXPOSE 80 443
 
