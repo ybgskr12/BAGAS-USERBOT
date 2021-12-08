@@ -10,7 +10,7 @@
     "productivity"
   ],
   "repository": "https://github.com/ybgskr12/BAGAS-USERBOT.",
-  "telegram": "https://t.me/ybgskr12",
+  "telegram": "https://t.me/ybgskr_ex",
   "success_url": "https://t.me/gsahmanja",
   "stack": "container",
   "env": {
@@ -83,7 +83,7 @@
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
-      "value": "Sayonara-Userbot",
+      "value": "Bagas-Userbot",
       "required": true
     },
     "S_PACK_NAME": {
