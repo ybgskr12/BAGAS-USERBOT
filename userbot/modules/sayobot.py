@@ -28,7 +28,7 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.sayo(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bagas(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**kyy Peler☑️**")
@@ -43,8 +43,8 @@ async def typewriter(typew):
     await typew.edit("**Kitaro Gajelas☑️**")
     await typew.edit("**Kitaro Gajelas✅**")
     sleep(2)
-    await typew.edit("**Bagas goblok!☑️**")
-    await typew.edit("**Bagas Goblok banget!✅**")
+    await typew.edit("**Sayo Ganteng!☑️**")
+    await typew.edit("**sayo Sunghu!✅**")
     sleep(2)
     await typew.edit("**Kyy² kang gabut!☑️**")
     await typew.edit("**Kyy² kang gabut!✅**")
@@ -55,7 +55,7 @@ async def typewriter(typew):
     await typew.edit("**Penggali,Mengintil☑️**")
     await typew.edit("**Penggali,Mengintil✅**")
     sleep(2)
-    await typew.edit("**CUMA SAYO YANG BENER !**")
+    await typew.edit("**BAGAS YANG PALING GANTENG FIX !**")
     sleep(3
 )
 
@@ -97,14 +97,14 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`SUCCESSFULLY COMPELED`")
     sleep(1)
-    await typew.edit("`💀SUPPORT` @NaraXmusic 💀 CENGHA` @Sayonara_story")
+    await typew.edit("`💀SUPPORT` @allfucek 💀 CENGHA` @loveisfuckedup")
 
 
 
 
 CMD_HELP.update({
     "sayobot":
-    "`.sayo`\
+    "`.bagas`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \n\n`.lah`\
