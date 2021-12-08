@@ -59,7 +59,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Sayonara-Userbot....`")
+    await event.edit("`Mematikan Bagas-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Sayonara-Userbot Repo](https://github.com/Krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/README.md)"
+        "\n[✨ Bagas-Userbot Repo](https://github.com/ybgskr12/BAGAS-USERBOT/blob/Bagas-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,13 +110,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **✨sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ✨** \n"
+        "**Hey**, I am using **✨ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ✨** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/krisnadiwangga/Sayonara-Userbot)\n"
-        "➣ **Owner Bot       :** [sᴀʏᴏɴᴀʀᴀ [🇮🇩]](t.me/Sayonara_nih)\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/ybgskr12/BAGAS-USERBOT)\n"
+        "➣ **Owner Bot       :** [⛧⃯`ʙᴀɢᴀs-ᴇx¹⁵¹[🇮🇩]](t.me/ybgskr_ex)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/KrisnaDiwangga)\n"
-        "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Sayonara_story)\n"
+        "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/yusupbagaskara12)\n"
+        "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/loveisfuckedup)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
     )
 
@@ -276,13 +276,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Sayonara-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Bagas-Userbot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Sayonara-Userbot.",
+    \n↳ : Menampilan link Repository Bagas-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Sayonara-Userbot",
+    \n↳: Menampilkan link String Bagas-Userbot",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
