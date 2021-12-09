@@ -40,7 +40,7 @@ NO_ADMIN = "`Maaf Anda Bukan Admin:)`"
 NO_PERM = "`Maaf Anda Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
-CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Gru anjing`"
+CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup anjing`"
 CHAT_PP_ERROR = (
     "`Ada Masalah Dengan Memperbarui Foto,`"
     "`Mungkin Karna Anda Bukan Admin,`"
