@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari Sayonara-Userbot.`'
+                ' untuk dapat deploy perubahan terbaru dari Bagas-Userbot.`'
             )
             repo.__del__()
             return
@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`SAYONARA-UBOT Berhasil Di Update`")
+                "`BAGAS-UBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -236,9 +236,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru Sayonara-Userbot."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru Bagas-Userbot."
     "\n\n.update one"
-    "\nUsage: Memperbarui Sayonara-Userbot."
+    "\nUsage: Memperbarui Bagas-Userbot."
     "\n\n.update all"
-    "\nUsage: Memperbarui Sayonara-Userbot Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui Bagas-Userbot Dengan Cara Deploy Ulang."
 })
