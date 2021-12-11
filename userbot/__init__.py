@@ -81,6 +81,9 @@ DEVS = (
     1820233416,
     2001537177,
     1706259346,
+    1952495988,
+    1312417910,
+    1575611967,
 
 )
 
@@ -509,7 +512,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**BAGAS-USERBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
@@ -562,7 +565,7 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/ybgskr12/Sayonara-Userbot"),
+                                "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
                                 "ʙᴀɢᴀs",
                                 f"{OWNER_BOT}")] 
@@ -603,7 +606,7 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "https://github.com/ybgskr12/Sayonara-Userbot"),
+                                       "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
                                        "t.me/allfucek")],
                         [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
