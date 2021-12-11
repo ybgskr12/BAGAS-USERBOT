@@ -300,11 +300,11 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥**\n"
-                    f"❊ **Ping:** "
+                    f"♡︎ **ᴘᴏɴɢ !! :** "
                     f"`%sms` \n"
-                    f"❊ **Uptime:** "
+                    f"♡︎ **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n"
-                    f"**✦҈͜͡➳ My Name:** `{ALIVE_NAME}`" % (duration))
+                    f"**♡︎ ᴍʏ ɴᴀᴍᴇ :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern=r"^\.punk$")
@@ -373,8 +373,8 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
-        f"**➾Kecepatan : ** %sms  \n"
-        f"**➾Branch : ** 🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥 \n" % (duration)) 
+        f"**➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : ** %sms  \n"
+        f"**➾ʙʀᴀɴᴄʜ : ** 🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥 \n" % (duration)) 
 
 @register(outgoing=True, pattern="^!uping$")
 async def pingme(pong):
@@ -385,9 +385,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**OWNER** - {ALIVE_NAME}\n\n"
-                    f"**Pong !!** "
+                    f"ᴘᴏɴɢ !! : "
                     f"`%sms` \n"
-                    f"**Uptime** - "
+                    f"ᴜᴘᴛɪᴍᴇ !! : "
                     f"`{uptime}` \n" % (duration))
 
 @register(outgoing=True, pattern="^.peler$")
@@ -404,9 +404,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡**\n"
-                    f"⚡ **Kontolll !!:** "
+                    f"⚡ **ᴋᴏɴᴛᴏʟ !! :** "
                     f"`%sms` \n"
-                    f"⚡ **uptime:** "
+                    f"⚡ **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n" % (duration))
     
 @register(outgoing=True, pattern="Lakik$")
@@ -431,9 +431,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ💀**\n"
-                    f"💀 **PINKING !!:** "
+                    f"💀 **ᴘɪɴᴋɪɴɢ !!:** "
                     f"`%sms` \n"
-                    f"💀 **uptime:** "
+                    f"💀 **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n" % (duration))
 
 CMD_HELP.update({
