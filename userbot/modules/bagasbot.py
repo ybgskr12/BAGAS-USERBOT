@@ -103,7 +103,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "sayobot":
+    "bagasbot":
     "`.bagas`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
