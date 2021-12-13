@@ -190,20 +190,20 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER BAGAS-UBOT ADALAH TUHAN DARI SEKTE BAGASNISM , YUK SABI YUK MASUK SEKTE BAGAS**"
-            "**OKE BIARKAN SAYA INTRO DULU**"
-            "**GUA ATHEIS TAPI GUA PUNYA TUHAN**"
-            "**SOLOYOLO WHAZZUP MY FRIENDS SOBAT SEKON GUA**"
-            "**FAKKLAHH..**"
-            "**NGENSKUYYY..**"
-            "**ANJASSS BROOOHH..**"
-            "**KENALIN GUA BAGAS**"
-            "**BACOTNYA KADANG NGE GASS**"
-            "**TAPI JANGAN BAPER**"
-            "**GUA IMIGRAN DARI SURGA, YANG DI TURUNKAN KE BUMI DI MALAM PENGANTIN DAN TEGANG**"
-            "**UMUR GUA DUAPULUH DI TAMBAH TIGA, DI KURANGIN 1**"
-            "**GUA ANAK KE DUA DARI TIGA BERSAUDARA**"
-            "**ASKOT GUA JATENG PAS NYA DI SOLO**"
+            "**OWNER BAGAS-UBOT ADALAH TUHAN DARI SEKTE BAGASNISM , YUK SABI YUK MASUK SEKTE BAGAS.., **"
+            "**OKE BIARKAN SAYA INTRO DULU.. **"
+            "**GUA ATHEIS TAPI GUA PUNYA TUHAN.. **"
+            "**SOLOYOLO WHAZZUP MY FRIENDS SOBAT SEKON GUA.. **"
+            "**FAKKLAHH.. **"
+            "**NGENSKUYYY.. **"
+            "**ANJASSS BROOOHH.. **"
+            "**KENALIN GUA BAGAS.. **"
+            "**BACOTNYA KADANG NGE GASS.. *"
+            "**TAPI JANGAN BAPER.. **"
+            "**GUA IMIGRAN DARI SURGA, YANG DI TURUNKAN KE BUMI DI MALAM PENGANTIN DAN TEGANG.., **"
+            "**UMUR GUA DUAPULUH DI TAMBAH TIGA, DI KURANGIN 1.., **"
+            "**GUA ANAK KE DUA DARI TIGA BERSAUDARA..**"
+            "**ASKOT GUA JATENG PAS NYA DI SOLO..**"
             "**KALO MAU MAIN SINI PC AJA , TAPI BAWAIN ROKOK SAMA KOPI, JANGAN NYUSAHIN, NGENTOTT**"]
 
         for i in animation_ttl:
