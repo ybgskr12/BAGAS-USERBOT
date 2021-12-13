@@ -32,14 +32,19 @@ absen = [
     "**Hadir Kak** 😉",
     "**Hadir Sayang** 😘",
     "**Hadir Kak Maap Telat** 🥺",
+    "**PUJI TUHAN BAGAS** 🙏🏻",
+    "**HIDUP LORD BAGAS** 😈",
 ]
 
 pacar = [
     "**Bagas mau jadi pacar aku ga?** 💘",
     "**Bagas mending sama aku** 😎",
-    "**Hai ganteng** 🐷",
+    "**Hai ganteng** 🥰",
     "**Mau ga bang jadi pacar aku?** 😁",
     "**Mending pc aku bang** 🥺",
+    "**Bagas Punya Gua Anj!** 😘",
+    "**Bismillah Slipkol Sama Bang Bagas**" 😝",
+    
 ]
 
 
