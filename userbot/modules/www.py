@@ -43,7 +43,7 @@ pacar = [
     "**Mau ga bang jadi pacar aku?** 😁",
     "**Mending pc aku bang** 🥺",
     "**Bagas Punya Gua Anj!** 😘",
-    "**Bismillah Slipkol Sama Bang Bagas**" 😘",
+    "**Bismillah Slipkol Sama Bang Bagas**",
     
 ]
 
