@@ -56,8 +56,7 @@ async def typewriter(typew):
     await typew.edit("**Penggali,Mengintil✅**")
     sleep(2)
     await typew.edit("**BAGAS YANG PALING GANTENG FIX !**")
-    sleep(3
-)
+    sleep(3)
 
 @register(outgoing=True, pattern='^.lah(?: |$)(.*)')
 async def typewriter(typew):
@@ -99,6 +98,17 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`💀SUPPORT` @allfucek 💀 CENGHA` @loveisfuckedup")
 
+    @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`cihh Bacot lu yatim`")
+    sleep(2)
+    await typew.edit("`emak bapak kok di tanem ?`")
+    sleep(1)
+    await typew.edit("`di tanam kek singkong`")
+    sleep(2)
+    await typew.edit("`BHAAAAKKKSSSSS`")
 
 
 
@@ -113,4 +123,7 @@ CMD_HELP.update({
     \nUsage: support\
     \n\n`.punten` ; `.sayonara`\
     \nUsage: misi."
+    \n\n`.yatim
+    \nUsage:darkjoke`
+    
 })
