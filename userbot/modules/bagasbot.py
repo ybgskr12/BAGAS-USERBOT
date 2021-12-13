@@ -3,15 +3,15 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.sadboy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
+    await typew.edit("`cihh Bacot lu yatim`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`emak bapak kok di tanem`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah aku bukan type mu 😊`")
+    await typew.edit("`di tanam kek singkong, BHAKSSSSSSS`")
 # Create by myself @localheart
 
 
@@ -104,7 +104,7 @@ CMD_HELP.update({
     "bagasbot":
     "`.bagas`\
     \nUsage: menampilkan alive bot.\
-    \n\n`.sadboy`\
+    \n\n`.yatim`\
     \n\n`.lah`\
     \nUsage: hiks\
     \n\n`.gc`\
