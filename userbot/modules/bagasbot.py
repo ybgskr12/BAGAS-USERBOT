@@ -9,7 +9,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`𝐂𝐢𝐡𝐡 𝐁𝐚𝐜𝐨𝐭 𝐋𝐮 𝐘𝐚𝐭𝐢𝐦 !`")
     sleep(2)
-    await typew.edit("`𝐂𝐢𝐡𝐡 𝐁𝐚𝐜𝐨𝐭 𝐋𝐮 𝐘𝐚𝐭𝐢𝐦 !`")
+    await typew.edit("`𝐄𝐦𝐚𝐤 , 𝐁𝐚𝐩𝐚𝐤.. 𝐊𝐨𝐤 𝐝𝐢 𝐓𝐚𝐧𝐞𝐦 !`")
     sleep(1)
     await typew.edit("`𝐃𝐢 𝐓𝐚𝐧𝐞𝐦 𝐊𝐞𝐤 𝐒𝐢𝐧𝐠𝐤𝐨𝐧𝐠 , 𝐁𝐇𝐀𝐊𝐒𝐒𝐒𝐒𝐒𝐒`")
 # Create by myself @localheart
