@@ -123,7 +123,5 @@ CMD_HELP.update({
     \nUsage: support\
     \n\n`.punten` ; `.sayonara`\
     \nUsage: misi."
-    \n\n`.yatim
-    \nUsage: darkjoke.`
     
 })
