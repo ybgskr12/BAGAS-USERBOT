@@ -98,7 +98,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`💀SUPPORT` @allfucek 💀 CENGHA` @loveisfuckedup")
 
-    @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
+@register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
@@ -124,6 +124,6 @@ CMD_HELP.update({
     \n\n`.punten` ; `.sayonara`\
     \nUsage: misi."
     \n\n`.yatim
-    \nUsage:darkjoke`
+    \nUsage: darkjoke.`
     
 })
