@@ -435,6 +435,18 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"💀 **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n" % (duration))
+    
+@register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`cihh Bacot lu yatim`")
+    sleep(2)
+    await typew.edit("`emak bapak kok di tanem ?`")
+    sleep(1)
+    await typew.edit("`di tanam kek singkong`")
+    sleep(2)
+    await typew.edit("`BHAAAAKKKSSSSS`")
 
 CMD_HELP.update({
     "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `Lakik`\
@@ -442,4 +454,6 @@ CMD_HELP.update({
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed` or `.sping` or `.sinyal` or `.bping`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Pong`\
-         \n↳ : Sama Seperti Perintah Ping."})
+         \n↳ : Sama Seperti Perintah Ping.
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.yatim`\
+         \n↳ : toxic."})
