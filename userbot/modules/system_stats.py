@@ -264,12 +264,12 @@ async def amireallyalive(alive):
         f" **          💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ 👑Owner       ➥ `{DEFAULTUSER}` \n"
-        f"❃ 🤠Username    ➥ `@{user.username}` \n"
+        f"❃ 🤠Username   ➥ `@{user.username}` \n"
         f"❃ 😊Telethon    ➥ `Versi {version.__version__}` \n"
         f"❃ 🐼Python      ➥ `Versi {python_version()}` \n"
         f"❃ 😎Versi Bot   ➥ `7.1` \n"
         f"❃ 📕Modul       ➥ `{len(modules)}` \n\n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
         f"{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/allfucek) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ ")
     if ALIVE_LOGO:
