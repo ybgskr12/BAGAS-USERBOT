@@ -1,7 +1,7 @@
 # Using Python Slim-Buster
 FROM xluxz/geezproject:buster
-# Sayonara-Userbot
-# Sayonara
+# BAGAS-USERBOT
+# BAGAS
 
 RUN git clone -b BAGAS-USERBOT https://github.com/ybgskr12/BAGAS-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
