@@ -57,7 +57,7 @@ async def stop_voice(c):
         await c.client(stopvc(await get_call(c)))
         await c.edit("`Mematikan Obrolan Suara`")
     except Exception as ex:
-        await c.edit(f"**ERROR:** `{ex}`")
+        await td.edit(f"`{str(ex)}`")
 
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
