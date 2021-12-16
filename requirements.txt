@@ -77,7 +77,6 @@ pyfiglet
 jotquote
 html_telegraph_poster
 csvfaker
-git+https://github.com/Randi356/Telethon
 git+https://github.com/ahupp/python-magic
 pytube>=9.5.1
 pymongo[srv]
