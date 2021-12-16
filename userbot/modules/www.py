@@ -246,8 +246,8 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
-                    f"➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : ** '%sms'  \n"
-                    f"➾ʙʀᴀɴᴄʜ : **⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡` \n" % (duration))
+                    f"➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : '%sms'  \n"
+                    f"➾ʙʀᴀɴᴄʜ    : ⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡` \n" % (duration))
 
 @register(outgoing=True, pattern="^.xping$")
 async def redis(pong):
