@@ -198,13 +198,13 @@ async def _(event):
             "**NGENSKUYYY.. **"
             "**ANJASSS BROOOHH.. **"
             "**KENALIN GUA BAGAS.. **"
-            "**BACOTNYA KADANG NGE GASS.. *"
-            "TAPI JANGAN BAPER.. **"
+            "**BACOTNYA KADANG NGE GASS..!!**"
+            "**TAPI JANGAN BAPER..!!**"
             "**GUA IMIGRAN DARI SURGA, YANG DI TURUNKAN KE BUMI DI MALAM PENGANTIN DAN TEGANG.., **"
             "**UMUR GUA DUAPULUH DI TAMBAH TIGA, DI KURANGIN 1.., **"
             "**GUA ANAK KE DUA DARI TIGA BERSAUDARA..**"
             "**ASKOT GUA JATENG PAS NYA DI SOLO..**"
-            "KALO MAU MAIN SINI PC AJA , TAPI BAWAIN ROKOK SAMA KOPI, JANGAN NYUSAHIN, NGENTOTT**"]
+            "**KALO MAU MAIN SINI PC AJA , TAPI BAWAIN ROKOK SAMA KOPI, JANGAN NYUSAHIN, NGENTOTT..!!**"]
 
         for i in animation_ttl:
 
