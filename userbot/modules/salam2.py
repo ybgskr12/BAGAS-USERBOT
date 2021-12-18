@@ -25,7 +25,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.l(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Wa'alaikumsalam, Mau ngentot kah???...**")
+    await typew.edit("**Wa'alaikumsalam, Ada yang bisa di banting ???...**")
 
 
 @register(outgoing=True, pattern='^.gjn(?: |$)(.*)')
@@ -37,13 +37,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.yb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Yabenarrrrrrr...**")
+    await typew.edit("**Ya benarrrrrrr...**")
 
 
 @register(outgoing=True, pattern='^.m(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MEMEK NYA ANAK INIIIII....**")
+    await typew.edit("**MEMEK KALI ANAK INIIIII....**")
 
 
 @register(outgoing=True, pattern='^.k(?: |$)(.*)')
@@ -55,13 +55,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gjb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAJELAS BABI....**")
+    await typew.edit("**GAJELAS BET BABI....**")
 
 
 @register(outgoing=True, pattern='^.gjk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Gajelas Kontolll....**")
+    await typew.edit("**Gajelas Lu Kontolll....**")
 
 
 @register(outgoing=True, pattern='^.gbgn(?: |$)(.*)')
@@ -91,7 +91,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.nj(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Anjing lo Muka Kontol...!!!**")
+    await typew.edit("**Anjing lo kayak Muka Kontol...!!!**")
 
 
 @register(outgoing=True, pattern='^.ds(?: |$)(.*)')
@@ -106,10 +106,10 @@ async def typewriter(typew):
     await typew.edit("**Lu siapa si ngentooootttt!!!!**")
 
 
-@register(outgoing=True, pattern='^.hey(?: |$)(.*)')
+@register(outgoing=True, pattern='^.cuih(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Hey, Member Alay..😂**")
+    await typew.edit("**GA KEREN LU BEGITU NGENTOTT..!!!**")
 
 
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
