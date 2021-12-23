@@ -34,13 +34,10 @@
 [![BAGAS-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
 ##
   
-  # Heroku
-  
-  <a href="https://heroku.com/deploy?template=https://github.com/ybgskr12/BAGAS-USERBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20BAGAS%20USERBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
-
-
-<br>
-</p>
+## DEPLOY TO HEROKU 💜
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Skyzu/Deploy-Bagas/tree/main">
+<img src="https://img.shields.io/badge/Deploy%20To%20Heroku-DE1EFB?style=flat&logo=heroku" width="250" height="38.60" />
+</a></p>
   
   
   # MODULES PLUGINS UPDATES🌹
