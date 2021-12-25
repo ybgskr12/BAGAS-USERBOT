@@ -511,7 +511,7 @@ with bot:
         plugins = CMD_HELP
         vr = BOT_VER
 
-        @tgbot.on(events.NewMessage(pattern="/start"))
+        @tgbot.on(events.NewMessage(pattern="*start"))
         async def handler(event):
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
