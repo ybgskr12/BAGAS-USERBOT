@@ -19,7 +19,7 @@
 
 <p align="center">
 
-[<img src="https://telegra.ph/file/d59b033eec98526ef3fc4.jpg">](https://t.me/allfucek) 
+[<img src="https://telegra.ph/file/63267910585608a6302b0.jpg">](https://t.me/allfucek) 
   
 #### JOIN YA KE LOVE IS FUCKED UP SUPPORT!!
 
