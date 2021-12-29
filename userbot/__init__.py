@@ -80,7 +80,7 @@ DEVS = (
     1191668125,
     1820233416,
     2001537177,
-    1706259346,
+    1538149626,
     1952495988,
     1312417910,
     1575611967,
@@ -89,7 +89,7 @@ DEVS = (
     1979717764,
     1705562427,
     1842074890,
-    1538149626,
+    
 )
 
 # For Blacklist Group Support
@@ -239,11 +239,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/d59b033eec98526ef3fc4.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/d59b033eec98526ef3fc4.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yusupbagaskara12"
