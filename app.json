@@ -1,7 +1,7 @@
 {
   "name": "BAGAS-USERBOT",
   "description": "[BAGAS-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/d59b033eec98526ef3fc4.jpg",
+  "logo": "https://telegra.ph/file/868879c0913cf74d7372c.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/d59b033eec98526ef3fc4.jpg",
+      "value": "https://telegra.ph/file/868879c0913cf74d7372c.jpg",
       "required": true
      },
      "STRING_SESSION": {
