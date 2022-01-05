@@ -66,7 +66,7 @@ TERIMAKASIH UNTUK😎
 *   [SKYZU](https://github.com/Skyzu) - SKYZU-USERBOT
 *   [KYURA](https://github.com/KyuraXp) - KYURA PALING OP
 *   [TONIC](https://github.com/Tonic990) - TONIC-USERBOT
-*   [KENKAN] (https://github.com/Trobossaja) - SUHU KEN PEPEK
+*   [KENKAN](https://github.com/Trobossaja) - SUHU KEN PEPEK
  
 # Userbot🔥
 * - JANGAN LUPA KLICK STAR 🤗
