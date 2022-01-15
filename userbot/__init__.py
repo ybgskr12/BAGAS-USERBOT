@@ -216,7 +216,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀"
+REPO_NAME = os.environ.get("REPO_NAME") or "🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -248,17 +248,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yusupbagaskara12"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "♡︎"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -313,7 +313,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ💀 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -531,9 +531,9 @@ with bot:
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
                                         "t.me/loveisfuckedup"),
-                             Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
                                         "t.me/allfucek")],
-                             [Button.url("👤OWNER-BOT👤",
+                             [Button.url("🐧OWNER-BOT🐧",
                                         "t.me/ybgskr_ex")],
                     ]
                 )
@@ -560,7 +560,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -602,7 +602,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                reply_pop_up_alert = f"WOI DJANCOKK!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
