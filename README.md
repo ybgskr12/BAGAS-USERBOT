@@ -1,4 +1,4 @@
-<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥BAGAS-USERBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
+<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥BAGAS - USERBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
 </p>
 <p align="center">
     <a href="https://github.com/ybgskr12/Sayonara-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -21,7 +21,7 @@
 
 [<img src="https://telegra.ph/file/868879c0913cf74d7372c.jpg">](https://t.me/allfucek) 
   
-#### JOIN YA KE LOVE IS FUCKED UP SUPPORT!!
+#### JOIN YA KE BAGASKARA SUPPORT 🔥!!
 
 <a href="https://t.me/allfucek"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/loveisfuckedup"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
@@ -57,7 +57,7 @@ typew.pattern_match.group(1)
 await typew.edit("**hello.**")
 ```  
 
-## Credit
+## SPECIAL CREDIT
 TERIMAKASIH UNTUK😎
 
 *   [LANDAK RAMA](https://github.com/ramadhani892) - RAM-UBOT
@@ -68,5 +68,5 @@ TERIMAKASIH UNTUK😎
 *   [TONIC](https://github.com/Tonic990) - TONIC-USERBOT
 *   [KENKAN](https://github.com/Trobossaja) - SUHU KEN PEPEK
  
-# Userbot🔥
+# USERBOT🔥
 * - JANGAN LUPA KLICK STAR 🤗
