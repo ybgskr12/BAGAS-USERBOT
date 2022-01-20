@@ -39,6 +39,10 @@
 <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-DE1EFB?style=flat&logo=heroku" width="250" height="38.60" />
 </a></p>
 
+## DEPLOY TO HEROKU BOT
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=eWJnc2tyMTIvQkFHQVMtVVNFUkJPVCBCQUdBUy1VU0VSQk9U">
+<img src="https://img.shields.io/badge/Deploy%20To%20Heroku%20Bot-DE1EFB?style=flat&logo=heroku" width="250" height="38.60" />
+</a></p>
 
 
 
