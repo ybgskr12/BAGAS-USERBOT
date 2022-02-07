@@ -67,7 +67,7 @@ TERIMAKASIH UNTUK😎
 *   [LANDAK RAMA](https://github.com/ramadhani892) - RAM-UBOT
 *   [RENDY](https://github.com/Randi356) - VEGETA-USERBOT / MAGISK
 *   [SAYONARA](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
-*   [SKYZU](https://github.com/Skyzu) - SKYZU-USERBOT
+*   [SKYZU](https://github.com/Skyzu) - SKYZU PALING GANTENG
 *   [KYURA](https://github.com/KyuraXp) - KYURA PALING OP
 *   [TONIC](https://github.com/Tonic990) - TONIC-USERBOT
 *   [KENKAN](https://github.com/Trobossaja) - SUHU KEN PEPEK
