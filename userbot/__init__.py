@@ -149,7 +149,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ybgskr12/BAGAS-USERBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "BAGAS-USERBOT")
+    "UPSTREAM_REPO_BRANCH", "BAGASKARA-USERBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -217,7 +217,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧"
+REPO_NAME = os.environ.get("REPO_NAME") or "⚡BAGASKARA-USERBOT⚡"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -236,7 +236,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Sayonara-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Bagaskara-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -314,7 +314,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```⚡BAGASKARA-USERBOT⚡ TELAH AKTIF!!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -530,11 +530,11 @@ with bot:
                     f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
-                             Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} ♡CHANNEL♡ {EMOJI_HELP}",
                                         "t.me/loveisfuckedup"),
-                             Button.url(f"{EMOJI_HELP} 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} ♡SUPPORT♡ {EMOJI_HELP}",
                                         "t.me/allfucek")],
-                             [Button.url("🐧OWNER-BOT🐧",
+                             [Button.url("♡OWNER-BOT♡",
                                         "t.me/ybgskr_ex")],
                     ]
                 )
@@ -561,7 +561,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"🐧ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🐧​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"⚡BAGASKARA-USERBOT⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -687,7 +687,7 @@ with bot:
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
-            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.rhelp`", buttons=Button.clear())
+            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.helpme`", buttons=Button.clear())
 
 
     except BaseException:
