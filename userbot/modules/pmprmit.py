@@ -38,7 +38,7 @@ DEF_UNAPPROVED_MSG = (
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• PESAN BOT \n"
-    "┣[• BY  BAGAS-UBOT\n"
+    "┣[• BY ⚡BAGASKARA-UBOT\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯")
 # =================================================================
 
@@ -400,7 +400,7 @@ async def permitpm(event):
     if event.is_private:
         if not pm_permit_sql.is_approved(chats.id):
             pm_permit_sql.approve(
-                chats.id, f"`TUAN KU SAYO-UBOT TELAH MENGIRIM PESAN UNTUK ANDA 😯`")
+                chats.id, f"`TUAN KU BAGASKARA-UBOT TELAH MENGIRIM PESAN UNTUK ANDA 😯`")
             await borg.send_message(
                 chats, f"**Menerima Pesan!, Pengguna Terdeteksi Adalah {DEFAULTUSER}**"
             )
