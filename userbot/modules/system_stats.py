@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​ Versi:** \n "
+            "**☛**ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -224,11 +224,11 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`PINGING.....`")
     await asyncio.sleep(1)
-    await alive.edit("💀")
+    await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴀɢᴀs](t.me/ybgskr_ex) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴀɢᴀsᴋᴀʀᴀ](t.me/ybgskr_ex) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -261,7 +261,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f" **          💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀** \n"
+        f" **         ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​⚡** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ 👑Owner       ➥ `{DEFAULTUSER}` \n"
         f"❃ 🤠Username   ➥ `@{user.username}` \n"
@@ -270,7 +270,7 @@ async def amireallyalive(alive):
         f"❃ 😎Versi Bot   ➥ `7.1` \n"
         f"❃ 📕Modul       ➥ `{len(modules)}` \n\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-        f"[{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/allfucek) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) || [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ ")
     if ALIVE_LOGO:
         try:
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("💀")
+    await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
-        f"┣  `Support  :` [Groups](https://t.me/allfucek) \n"
-        f"┣  `Owner    :` [ʙᴀɢᴀs](https://t.me/ybgskr_ex) \n"
+        f"┣  `GitHub   :` [ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
+        f"┣  `Support  :` [sᴜᴘᴘᴏʀᴛ](https://t.me/allfucek) \n"
+        f"┣  `Owner    :` [ʙᴀɢᴀsᴋᴀʀᴀ](https://t.me/ybgskr_ex) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
