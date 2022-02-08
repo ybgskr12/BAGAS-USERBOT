@@ -195,7 +195,7 @@ async def dyno_usage(dyno):
                 f"╚═══════════════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
                 f"➠ **REPO** : [ʙᴀɢᴀsᴋᴀʀᴀ](http://github.com/ybgskr12/BAGAS-USERBOT.git) \n"
-            )
+                )
             await asyncio.sleep(5)
             await event.delete()
             return True
