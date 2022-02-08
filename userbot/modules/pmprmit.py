@@ -28,18 +28,15 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    f"**╭━━━━━━━━━━━━━━━━━╮**\n   🔥WELCOME🔥\n"
-    "**╰━━━━━━━━━━━━━━━━━╯**\n"
+    "**★ᴡᴇʟᴄᴏᴍᴇ★**\n"
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    f"**HALO SAYA ADALAH ASISSTANT {DEFAULTUSER}\n" 
-    f"*•Saya belum menyetujui anda untuk PM.\n"
-    f"*• Tunggu sampai saya menyetujui PM anda.\n"
-    f"*• Jangan Spam Chat atau anda akan otomatis diblokir.**\n"
+    f"**Hallo Saya Adalah Assistan {DEFAULTUSER}\n" 
+    f"*•Saya Belum Menyetujui Anda Untuk PM.\n"
+    f"*• Tunggu Sampai Majikan Saya Menyetujui PM Anda.\n"
+    f"*• Jangan Spam Chat Atau Anda Akan Otomatis Di-Blokir.**\n"
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• PESAN BOT \n"
-    "┣[• BY ⚡BAGASKARA-UBOT\n"
-    "╰✠╼━━━━━━❖━━━━━━━✠╯")
+    "• ᴘᴇsᴀɴ ʙᴏᴛ \n"
+    "• ʙʏ ⚡Bᴀɢᴀsᴋᴀʀᴀ-Usᴇʀʙᴏᴛ\n")
 # =================================================================
 
 
