@@ -268,6 +268,7 @@ async def amireallyalive(alive):
         f"❃ 😎Versi Bot   ➥ `7.1` \n"
         f"❃ 📕Modul       ➥ `{len(modules)}` \n\n"
         f"[{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) || [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
+        )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
