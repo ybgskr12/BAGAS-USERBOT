@@ -185,17 +185,16 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **⚡INFO DYNO HEROKU⚡** ★\n╔══════━━━━━━━══════╗ \n"
-                f"➠**Penggunaan Kuota :** `{app.name}` \n"
-                f"➠ **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
+                f"★ **⚡Iɴғᴏ Dʏɴᴏ Hᴇʀᴏᴋᴜ⚡** ★\n╔═══════════════╗ \n"
+                f"➠ **Hasil** :  `{AppHours}` **Jam** - `{}` **Menit**\n"
                 f"➠ **Persen** : `{AppPercentage}`**%**\n"
                 f"◖═══════════════════◗ \n"
                 f"➠ **Sisa Kuota Bulan ini :**\n"
                 f"➠ **Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
                 f"➠ **Persen** :  `{percentage}`**%**\n"
-                f"╚══════━━━━━━━══════╝ \n"
+                f"╚═══════════════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
-                f"➠ **REPO** : [ʙᴀɢᴀs](http://github.com/ybgskr12/BAGAS-USERBOT.git) \n"
+                f"➠ **REPO** : [ʙᴀɢᴀsᴋᴀʀᴀ](http://github.com/ybgskr12/BAGAS-USERBOT.git) \n"
                )
             await asyncio.sleep(5)
             await event.delete()
