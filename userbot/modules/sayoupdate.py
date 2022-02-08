@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari Bagas-Userbot.`'
+                ' untuk dapat deploy perubahan terbaru dari Bagaskara-Userbot.`'
             )
             repo.__del__()
             return
@@ -65,7 +65,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-UBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy BAGASKARA-UBOT dyno.`'
             )
             return repo.__del__()
         await event.edit(f'`{REPO_NAME}:'
@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`BAGAS-UBOT Berhasil Di Update`")
+                "`BAGASKARA-UBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -128,7 +128,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**RAM-UBOT Telah Di Perbarui ツ**")
+            "**BAGASKARA-UBOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -196,7 +196,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f"**Pembaruan Untuk {REPO_NAME} [{REPO_NAME}]:\n\n✨Pembaruan:**\n`{changelog}`"
+        changelog_str = f"**Pembaruan Untuk {REPO_NAME} :\n\n✨Pembaruan:**\n`{changelog}`"
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -236,9 +236,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru Bagas-Userbot."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru Bagaskara-Userbot."
     "\n\n.update one"
-    "\nUsage: Memperbarui Bagas-Userbot."
+    "\nUsage: Memperbarui Bagaskara-Userbot."
     "\n\n.update all"
-    "\nUsage: Memperbarui Bagas-Userbot Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui Bagaskara-Userbot Dengan Cara Deploy Ulang."
 })
