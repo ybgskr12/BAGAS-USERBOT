@@ -149,7 +149,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/ybgskr12/BAGAS-USERBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ")
+    "UPSTREAM_REPO_BRANCH", "BAGAS-USERBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
