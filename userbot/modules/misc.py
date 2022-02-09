@@ -59,7 +59,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan Bagas-Userbot....`")
+    await event.edit("`Mematikan Bagaskara-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Bagas-Userbot...`")
+    await event.edit("`Restarting Bagaskara-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Bagas-Userbot Repo](https://github.com/ybgskr12/BAGAS-USERBOT/blob/Bagas-Userbot/README.md)"
+        "\n[✨ Bagaskara-Ubot Repo](https://github.com/ybgskr12/BAGAS-USERBOT/blob/Bagas-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,10 +110,10 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **✨ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ✨** \n"
+        "**Hey**, I am using **✨ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ✨** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/ybgskr12/BAGAS-USERBOT)\n"
-        "➣ **Owner Bot       :** [⛧⃯`ʙᴀɢᴀs-ᴇx¹⁵¹[🇮🇩]](t.me/ybgskr_ex)\n"
+        "➣ **Owner Bot       :** [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/yusupbagaskara12)\n"
         "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/loveisfuckedup)\n"
@@ -125,7 +125,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"➣ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
+        f"➣ **GET STRING SESSION TELEGRAM BOT :** [BAGASKARA-STRING](https://t.me/string_bagasbot)\n"
     )
 
 
@@ -276,13 +276,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Bagas-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Bagaskara-Userbot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Bagas-Userbot.",
+    \n↳ : Menampilan link Repository Bagaskara-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Bagas-Userbot",
+    \n↳: Menampilkan link String Bagaskara-Userbot Via Bot Telegram",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
