@@ -297,7 +297,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡ TELAH AKTIF!!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```⚡BAGASKARA-USERBOT⚡ TELAH AKTIF!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -544,23 +544,23 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐BAGAS-USERBOT⭐\n\n✨**Owner : [BAGAS](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"⚡BAGASKARA-UBOT⚡\n\n✨**Owner : [BAGAS](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⭐BAGAS-USERBOT⭐ ",
+                    "Bantuan Dari ⚡BAGASKARA-USERBOT⚡ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⭐BAGAS-USERBOT⭐ ",
-                    text="""**⭐BAGAS-USERBOT⭐\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " ⚡BAGASKARA-USERBOT⚡ ",
+                    text="""**⚡BAGASKARA-USERBOT⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⭐BAGASKARA-USERBOT⭐",
+                                "⚡BAGASKARA-UBOT⚡",
                                 "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
                                 "OWNER",
