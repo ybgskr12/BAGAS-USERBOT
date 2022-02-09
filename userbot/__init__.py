@@ -86,6 +86,7 @@ DEVS = (
     2077108390,
     2122261901,
     2001537177,
+    2004395661,
 )
 
 # For Blacklist Group Support
@@ -547,33 +548,31 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
-                        len(dugmeler),
-                    ),
+                    text=f"⭐BAGAS-USERBOT⭐\n\n✨**Owner : [BAGAS](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    f"Bantuan Dari {REPO_NAME} ",
+                    "Bantuan Dari ⭐BAGAS-USERBOT⭐ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    f" ━━━━━━━❖━━━━━━━━\n       {REPO_NAME}\n━━━━━━━❖━━━━━━━━ ",
-                    text=f"""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n{REPO_NAME}\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
+                    " ⭐BAGAS-USERBOT⭐ ",
+                    text="""**⭐BAGAS-USERBOT⭐\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                f"{REPO_NAME}",
+                                "⭐BAGASKARA-USERBOT⭐",
                                 "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
-                                "ʙᴀɢᴀs",
-                                f"{OWNER_BOT}")] 
-                    ],
+                                "OWNER",
+                                "t.me/ybgskr_ex")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
+
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -589,9 +588,8 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -606,21 +604,24 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url(f"{REPO_NAME}",
-                                       "https://github.com/ybgskr12/BAGAS-USERBOT"),
-                            Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
+                            Button.url("📢 Channel Support",
+                                       "t.me/loveisfuckedup"),
+                            Button.url("🚨 Group support",
                                        "t.me/allfucek")],
-                        [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
-                                    f"{OWNER_BOT}"),
-                            Button.url(f"{EMOJI_HELP} ɪɴsᴛᴀɢʀᴀᴍ​ {EMOJI_HELP} ",
-                                   f"{IG_ALIVE}")],
+                        [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
-                            f"{EMOJI_HELP} ᴄʟᴏsᴇ​ {EMOJI_HELP}", b"close")],
-                       ]
+                            "Close", b"close")],
+                    ]
                 )
 
+        @tgbot.on(events.CallbackQuery(data=b"close"))
+        async def close(event):
+            buttons =[
+                [custom.Button.inline("Open Menu", data="nepo")],
+            ]
+            await event.edit("Menu Ditutup!", buttons=buttons.clear())
 
-        @tgbot.on(
+        @ tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_prev\((.+?)\)")
             )
@@ -635,9 +636,8 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -649,13 +649,14 @@ with bot:
                 modul_name = event.data_match.group(1).decode("UTF-8")
 
                 cmdhel = str(CMD_HELP[modul_name])
-                if len(cmdhel) > 150:
+                if len(cmdhel) > 180:
                     help_string = (
-                        str(CMD_HELP[modul_name]).replace('`', '')[:150] + "..."
+                        str(CMD_HELP[modul_name]).replace(
+                            '`', '')[:180] + "..."
                         + "\n\nBaca Text Berikutnya Ketik .help "
                         + modul_name
                         + " "
-                    )
+                  )
                 else:
                     help_string = str(CMD_HELP[modul_name]).replace('`', '')
 
@@ -667,14 +668,9 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
-        @tgbot.on(events.CallbackQuery(data=b"close"))
-        async def close(event):
-            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.rhelp`", buttons=Button.clear())
-
 
     except BaseException:
         LOGS.info(
