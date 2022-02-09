@@ -227,14 +227,14 @@ async def amireallyalive(alive):
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"●▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴀɢᴀsᴋᴀʀᴀ](t.me/ybgskr_ex) \n"
+        f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴧɢᴧsҡᴧʀᴧ](t.me/ybgskr_ex) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
         f"✾ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"✾ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
-        f"●▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬●")
+        f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬●")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -260,15 +260,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" ** ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​⚡** \n"
+        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
+        f" **         ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​⚡** \n"
+        f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ 👑Owner       ➥ `{DEFAULTUSER}` \n"
         f"❃ 🤠Username   ➥ `@{user.username}` \n"
         f"❃ 😊Telethon    ➥ `Versi {version.__version__}` \n"
         f"❃ 🐼Python      ➥ `Versi {python_version()}` \n"
         f"❃ 😎Versi Bot   ➥ `7.1` \n"
         f"❃ 📕Modul       ➥ `{len(modules)}` \n\n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
         f"[{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) || [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
-        )
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -313,7 +316,7 @@ async def redis(alive):
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ](https://github.com/ybgskr12/BAGAS-USERBOT) \n"
         f"┣  `Support  :` [sᴜᴘᴘᴏʀᴛ](https://t.me/allfucek) \n"
-        f"┣  `Owner    :` [ʙᴀɢᴀsᴋᴀʀᴀ](https://t.me/ybgskr_ex) \n"
+        f"┣  `Owner    :` [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
