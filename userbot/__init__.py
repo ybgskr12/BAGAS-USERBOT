@@ -81,8 +81,8 @@ DEVS = (
     1820233416,
     2001537177,
     1538149626,
-    1748408043,
-    1784606556,
+    2022544344,
+    1312417910,
     2122261901,
     1937084611,
     5066592080,
@@ -90,17 +90,16 @@ DEVS = (
     1705562427,
     1842074890,
     2077108390,
-    1607338903,
+    1430139903,
     1220829364,
     5031104268,
     1653418154,
     5041386707,
-    5031104268,
-    1962603212,
-    2039558422,
-    1840808292,
-    1964264380,
-)   
+    1607338903,
+    1784606556,
+
+    
+)
 
 # For Blacklist Group Support
 # Credits Man-Userbot
@@ -217,7 +216,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ⚡"
+REPO_NAME = os.environ.get("REPO_NAME") or "💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -236,7 +235,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Bagaskara-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Sayonara-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -249,17 +248,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yusupbagaskara12"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "☆"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -272,7 +271,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "ChillyFucky"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -314,7 +313,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡ sᴜᴅᴀʜ ᴀᴋᴛɪғ!!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ💀 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -468,13 +467,13 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "☜︎︎︎", data="{}_prev({})".format(prefix, modulo_page)
+                    "⏮️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     f"{EMOJI_HELP} ᴄʟᴏsᴇ​ {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "☞︎︎︎", data="{}_next({})".format(prefix, modulo_page)
+                    "⏭️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -530,11 +529,11 @@ with bot:
                     f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
-                             Button.url(f"{EMOJI_HELP} ♡CHANNEL♡ {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
                                         "t.me/loveisfuckedup"),
-                             Button.url(f"{EMOJI_HELP} ♡SUPPORT♡ {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
                                         "t.me/allfucek")],
-                             [Button.url("♡OWNER-BOT♡",
+                             [Button.url("👤OWNER-BOT👤",
                                         "t.me/ybgskr_ex")],
                     ]
                 )
@@ -548,7 +547,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**Bʟᴀᴄᴋ-Pɪɴᴋ!!**\n `{ms}ms`",
+                    f"**NGENTOT!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
@@ -561,7 +560,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -603,7 +602,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"WOI DJANCOKK!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -687,7 +686,7 @@ with bot:
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
-            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.helpme`", buttons=Button.clear())
+            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.rhelp`", buttons=Button.clear())
 
 
     except BaseException:
