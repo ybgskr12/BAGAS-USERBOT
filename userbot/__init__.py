@@ -74,31 +74,18 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
-    1663258664,
-    1977978893,
-    1416529201,
-    1191668125,
     1820233416,
-    2001537177,
-    1538149626,
-    2022544344,
-    1312417910,
-    2122261901,
-    1937084611,
-    5066592080,
-    1979717764,
-    1705562427,
-    1842074890,
-    2077108390,
-    1430139903,
+    5032617939,
+    1191668125,
     1220829364,
-    5031104268,
-    1653418154,
-    5041386707,
+    1416529201,
     1607338903,
+    1663258664,
     1784606556,
-
-    
+    1964264380,
+    2077108390,
+    2122261901,
+    2001537177,
 )
 
 # For Blacklist Group Support
@@ -216,7 +203,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ​💀"
+REPO_NAME = os.environ.get("REPO_NAME") or "⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -248,17 +235,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/868879c0913cf74d7372c.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yusupbagaskara12"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✪"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -271,7 +258,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "ChillyFucky"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "Love Is Fucked Up"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -313,7 +300,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ💀 TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡ TELAH AKTIF!!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -529,11 +516,11 @@ with bot:
                     f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
-                             Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} CHANNEL {EMOJI_HELP}",
                                         "t.me/loveisfuckedup"),
-                             Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
+                             Button.url(f"{EMOJI_HELP} GROUP SUPPORT {EMOJI_HELP}",
                                         "t.me/allfucek")],
-                             [Button.url("👤OWNER-BOT👤",
+                             [Button.url("⚡OWNER-BOT⚡",
                                         "t.me/ybgskr_ex")],
                     ]
                 )
@@ -560,7 +547,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                    text=f"⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡​\n\n**Mᴀɪɴ Mᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.1\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [{DEFAULTUSER}]({OWNER_BOT}) ".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
