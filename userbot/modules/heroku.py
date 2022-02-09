@@ -185,7 +185,7 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **⚡INFO DYNO HEROKU⚡** ★\n╔══════━━━━━━━══════╗ \n"
+                f"★ **⚡Iɴғᴏʀᴍᴀsɪ Dʏɴᴏ⚡** ★\n╔══════━━━━━━━══════╗ \n"
                 f"➠**Penggunaan Kuota :** `{app.name}` \n"
                 f"➠ **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
                 f"➠ **Persen** : `{AppPercentage}`**%**\n"
@@ -195,7 +195,7 @@ async def dyno_usage(dyno):
                 f"➠ **Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
-                f"➠ **REPO** : [ʙᴀɢᴀs](http://github.com/ybgskr12/BAGAS-USERBOT.git) \n"
+                f"➠ **REPO** : [ʙᴧɢᴧsҡᴧʀᴧ](http://github.com/ybgskr12/BAGAS-USERBOT.git) \n"
                )
             await asyncio.sleep(5)
             await event.delete()
@@ -227,7 +227,7 @@ CMD_HELP.update({"herokuapp": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Usage`"
                  "\n↳ : Check Quota Dyno Heroku"
                  "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
-                 "\nSetelah Menyetel Variabel Tersebut, Geez-Userbot Akan Di Restart."
+                 "\nSetelah Menyetel Variabel Tersebut, Bagaskara-Userbot Akan Di Restart."
                  "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.get var atau .get var <VAR>`"
                  "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
