@@ -1,4 +1,4 @@
-<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥BAGAS - USERBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
+<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">BAGASKARA-UBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
 </p>
 <p align="center">
     <a href="https://github.com/ybgskr12/Sayonara-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
