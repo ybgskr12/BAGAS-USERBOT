@@ -26,9 +26,9 @@ jobs:
       # commit changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'krisnadiwangga: auto fixes'
+          commit_message: 'fixed auto: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: krisnadiwangga
-          commit_user_email: djkrisna009@gmail.com
-          commit_author: krisnadiwangga <djkrisna009@gmail.com>
+          commit_user_name: ybgskr12
+          commit_user_email: yusupbagaskara12@gmail.com
+          commit_author: ybgskr12 <yusupbagaskara12@gmail.com>
