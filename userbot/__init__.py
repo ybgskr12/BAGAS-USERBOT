@@ -234,7 +234,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
-# Default .helpme logo
+# Default .xhelp logo
 HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
@@ -580,7 +580,7 @@ with bot:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
-                    current_page_number + 1, dugmeler, "helpme")
+                    current_page_number + 1, dugmeler, "xhelp")
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
