@@ -451,13 +451,13 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⏮️", data="{}_prev({})".format(prefix, modulo_page)
+                    "☜︎︎︎", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     f"{EMOJI_HELP} ᴄʟᴏsᴇ​ {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "⏭️", data="{}_next({})".format(prefix, modulo_page)
+                    "☞︎︎︎", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -544,7 +544,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡BAGASKARA-UBOT⚡\n\n✨**Owner : [BAGAS](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"⚡BAGASKARA-USERBOT⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
@@ -563,7 +563,7 @@ with bot:
                                 "⚡BAGASKARA-UBOT⚡",
                                 "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
-                                "OWNER",
+                                "ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩",
                                 "t.me/ybgskr_ex")]],
                     link_preview=False,
                 )
