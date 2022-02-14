@@ -83,6 +83,7 @@ DEVS = (
     1663258664,
     1784606556,
     1964264380,
+    1607338903,
 )
 
 # For Blacklist Group Support
@@ -255,7 +256,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "Love Is Fucked Up"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "@loveisfuckedup"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
