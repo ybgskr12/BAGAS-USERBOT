@@ -30,6 +30,7 @@ GCAST_BLACKLIST = [
     -1001273141346, # Remix Support Vegeta
     -1001795125065, # Bagaskara Support
     -1001687155877, # Grey Cilik Support
+    -1001575341991, # Kyura Support
 ]
 
 
