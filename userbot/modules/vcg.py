@@ -15,7 +15,7 @@ NO_ADMIN = "`Maaf Kamu Bukan Admin!"
 
 async def get_call(event):
     sky = await event.client(getchat(event.chat_id))
-    skyzu = await event.client(getvc(skyzu.full_chat.call, limit=1))
+    skyzu = await event.client(getvc(sky.full_chat.call, limit=1))
     return skyzu.call
 
 
