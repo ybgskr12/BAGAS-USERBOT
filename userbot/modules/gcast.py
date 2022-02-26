@@ -31,6 +31,7 @@ GCAST_BLACKLIST = [
     -1001795125065, # Bagaskara Support
     -1001687155877, # Grey Cilik Support
     -1001705349543, # Kyura Support
+    -1001692751821, # Ram Support
 ]
 
 
