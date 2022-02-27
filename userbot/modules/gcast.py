@@ -27,11 +27,12 @@ GCAST_BLACKLIST = [
     -1001459701099,  # CatUserbotSupport
     -1001109837870,  # TelegramBotIndonesia
     -1001752592753,  # Skyzusupport
-    -1001273141346, # Remix Support Vegeta
-    -1001795125065, # Bagaskara Support
-    -1001687155877, # Grey Cilik Support
-    -1001705349543, # Kyura Support
-    -1001692751821, # Ram Support
+    -1001273141346,  # Remix Support Vegeta
+    -1001795125065,  # Bagaskara Support
+    -1001687155877,  # Grey Cilik Support
+    -1001705349543,  # Kyura Support
+    -1001692751821,  # Ram Support
+    -1001699144606,  # Kasta Support
 ]
 
 
