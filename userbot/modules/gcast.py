@@ -33,6 +33,7 @@ GCAST_BLACKLIST = [
     -1001705349543,  # Kyura Support
     -1001692751821,  # Ram Support
     -1001699144606,  # Kasta Support
+    -1001716001073,  # Skyla Support
 ]
 
 
