@@ -262,13 +262,14 @@ async def amireallyalive(alive):
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣ ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​⚡ \n"
-        f"┣ 👑Owner     :` {DEFAULTUSER}` \n"
-        f"┣ 🤠Username  :` @{user.username}` \n"
-        f"┣ 😊Telethon  :` Versi {version.__version__}` \n"
-        f"┣ 🐼Python    :` Versi {python_version()}` \n"
-        f"┣ 😎Versi Bot :` 7.1` \n"
-        f"┣ 📕Modul     :` {len(modules)}` \n\n"
-        f"┣ [{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT) || [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) || [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
+        f"┣ 👑Owner     : ` {DEFAULTUSER}` \n"
+        f"┣ 🤠Username  : ` @{user.username}` \n"
+        f"┣ 😊Telethon  : ` Versi {version.__version__}` \n"
+        f"┣ 🐼Python    : ` Versi {python_version()}` \n"
+        f"┣ 😎Versi Bot : ` 7.1` \n"
+        f"┣ 📕Modul     : ` {len(modules)}` \n"
+        f"┣ [{REPO_NAME}](https://github.com/ybgskr12/BAGAS-USERBOT)` \n"
+        f"┣ [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) || [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})` \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
