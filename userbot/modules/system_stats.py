@@ -260,7 +260,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"   ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ⚡
+        f"   ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ⚡ \n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"➥ **Name** : `{DEFAULTUSER}` \n"
         f"➥ **Username** : @{user.username} \n"
@@ -269,8 +269,8 @@ async def amireallyalive(alive):
         f"➥ **Bot Ver**  : `{BOT_VER}` \n"
         f"➥ **Modules**  : `{len(modules)}` \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f" [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex) | [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) | [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
-        )
+        f" [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex) | [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) | [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})"
+     )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
