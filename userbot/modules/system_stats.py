@@ -260,17 +260,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣ ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​⚡ \n"
-        f"┣ 👑Owner     ➪ ` {DEFAULTUSER}` \n"
-        f"┣ 🤠Username  ➪ ` @{user.username}` \n"
-        f"┣ 😊Telethon  ➪ ` Versi {version.__version__}` \n"
-        f"┣ 🐼Python    ➪ ` Versi {python_version()}` \n"
-        f"┣ 😎Versi Bot ➪ ` 7.1` \n"
-        f"┣ 📕Modul     ➪ ` {len(modules)}` \n"
-        f"┣ 🖥️Github    ➪ `[ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ](https://github.com/ybgskr12/BAGAS-USERBOT)` \n"
-        f"┣ 🇮🇩Owner     ➪ `[ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex)` \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"   ⚡ʙᴀɢᴀsᴋᴀʀᴀ-ᴜʙᴏᴛ⚡
+        f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
+        f"➥ **Name** : `{DEFAULTUSER}` \n"
+        f"➥ **Username** : @{user.username} \n"
+        f"➥ **Telethon** : `{version.__version__}` \n"
+        f"➥ **Python**   : `{python_version()}` \n"
+        f"➥ **Bot Ver**  : `{BOT_VER}` \n"
+        f"➥ **Modules**  : `{len(modules)}` \n"
+        f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
+        f" [ʙᴧɢᴧsҡᴧʀᴧ](https://t.me/ybgskr_ex) | [sᴜᴘᴘᴏʀᴛ](t.me/allfucek) | [ɪɴsᴛᴀɢʀᴀᴍ]({IG_ALIVE})\n"
+        )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
