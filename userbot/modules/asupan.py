@@ -7,7 +7,7 @@ import random
 
 from userbot import CMD_HELP
 from userbot.events import register
-from userbot import owner
+from userbot import DEFAULTUSER
 from telethon.tl.types import InputMessagesFilterVideo
 from telethon.tl.types import InputMessagesFilterVoice
 from telethon.tl.types import InputMessagesFilterPhotos
@@ -26,7 +26,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(asupannya),
-            caption=f"Nih kak asupannya [{owner}](tg://user?id={aing.id})",
+            caption=f"Nih kak asupannya [{DEFAULTUSER}](tg://user?id={aing.id})",
         )
         await event.delete()
     except Exception:
@@ -45,7 +45,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(desahnya),
-            caption=f"Nih kak desahannya [{owner}](tg://user?id={aing.id})",
+            caption=f"Nih kak desahannya [{DEFAULTUSER}](tg://user?id={aing.id})",
         )
         await event.delete()
     except Exception:
@@ -64,7 +64,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(ayangnya),
-            caption=f"Nih Ayang Aku 😘 [{owner}](tg://user?id={aing.id})",
+            caption=f"Nih Ayang Aku 😘 [{DEFAULTUSER}](tg://user?id={aing.id})",
         )
         await event.delete()
     except Exception:
