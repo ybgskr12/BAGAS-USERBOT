@@ -440,6 +440,22 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"💀 **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n" % (duration))
+# credits @rencprx
+
+@register(outgoing=True, pattern="^!helbot$")
+async def pingme(pong):
+    """ For !ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("**pingers powers**")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**╰•★★ ℘ơŋɠ ★★•╯**\n"
+                    f"★ **speed:** "
+                    f"`%sms` \n"
+                    f"★ **Uptime:** "
+                    f"`{uptime}` \n"
+                    f"★ **owner:** `{ALIVE_NAME}`" % (duration))
    
 CMD_HELP.update({
     "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `Lakik`\
