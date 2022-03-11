@@ -1,8 +1,11 @@
 # credit by @kyuraxx
 # own kyura
 
-from userbot import CMD_HELP
+from time import sleep
+from userbot import CMD_HELP, bot
 from userbot.events import register
+from telethon import events
+import asyncio
 
 
 @register(outgoing=True, pattern='^.djancok(?: |$)(.*)')
@@ -16,8 +19,21 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**DASAR DJANCOK!**")
 
+
+@register(outgoing=True, pattern='^.vcs(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**EH LONTE APLIKASI**")
+    sleep(1)
+    await typew.edit("**KALO GA PUNYA HARGA DIRI**")
+    sleep(1)
+    await typew.edit("**GAUSAH JUAL DIRI GOBLOK**")
+    sleep(1)
+    await typew.edit("**KASIAN ORANG TUA LU TOLOL**")
+    
+    
 CMD_HELP.update({
     "animasi2":
-    "`.djancok`\
+    "`.djancok`; `.vcs`\
     \nUsage: liat aja."
 })
