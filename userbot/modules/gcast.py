@@ -35,6 +35,7 @@ GCAST_BLACKLIST = [
     -1001699144606,  # Kasta Support
     -1001716001073,  # Skyla Support
     -1001554560763,  # Vegeta Support
+    -1001578091827,  # Prime Support
 ]
 
 
