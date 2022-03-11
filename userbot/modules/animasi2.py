@@ -18,5 +18,6 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "animasi2":
-    "`.djancok` ;
+    "`.djancok`\
+    \nUsage: liat aja."
 })
