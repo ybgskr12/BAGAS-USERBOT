@@ -8,13 +8,13 @@ from userbot.events import register
 @register(outgoing=True, pattern='^.djancok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("ᴡᴏɪ ᴋᴀʟᴀᴜ ᴅᴇᴘʟᴏʏ ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ")
+    await typew.edit("**WOI KALAU DEPLOY BAGASKARA-USERBOT**")
     sleep(1)
-    await typew.edit("ᴊᴏɪɴ ᴊᴜɢᴀ sᴜᴘᴘʀᴏᴛ ɴʏᴀ ᴅᴊᴀɴᴄᴏᴋ !")
+    await typew.edit("**JOIN JUGA SUPPORT NYA DJANCOK!!**")
     sleep(1)
-    await typew.edit("ᴅᴇᴘʟᴏʏ ᴅᴏᴀɴɢ ɢᴀ ᴊᴏɪɴ")
-    sleep(2)
-    await typew.edit("ᴅᴀsᴀʀ ᴅᴊᴀɴᴄᴏᴋ..")
+    await typew.edit("**DEPLOY DOANG GA JOIN**")
+    sleep(1)
+    await typew.edit("**DASAR DJANCOK!**")
 
 CMD_HELP.update({
     "animasi2":
