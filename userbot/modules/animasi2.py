@@ -9,11 +9,11 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("ᴡᴏɪ ᴋᴀʟᴀᴜ ᴅᴇᴘʟᴏʏ ʙᴀɢᴀsᴋᴀʀᴀ-ᴜsᴇʀʙᴏᴛ")
-    sleep(3)
+    sleep(1)
     await typew.edit("ᴊᴏɪɴ ᴊᴜɢᴀ sᴜᴘᴘʀᴏᴛ ɴʏᴀ ᴅᴊᴀɴᴄᴏᴋ !")
-    sleep(3)
+    sleep(1)
     await typew.edit("ᴅᴇᴘʟᴏʏ ᴅᴏᴀɴɢ ɢᴀ ᴊᴏɪɴ")
-    sleep(3)
+    sleep(2)
     await typew.edit("ᴅᴀsᴀʀ ᴅᴊᴀɴᴄᴏᴋ..")
 
 CMD_HELP.update({
