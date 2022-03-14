@@ -27,7 +27,7 @@ async def bagas_ubot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"⚡ Bagaskara-Userbot Berhasil Diaktfikan ⚡\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER} @{UPSTREAM_REPO_BRANCH}\n╼┅━━━━━╍━━━━━┅╾",
+                f"⚡ Bagaskara-Userbot Berhasil Diaktfikan ⚡\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER} {UPSTREAM_REPO_BRANCH}\n╼┅━━━━━╍━━━━━┅╾",
             )
     except Exception as e:
         LOGS.info(str(e))
