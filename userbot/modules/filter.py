@@ -39,7 +39,7 @@ async def filter_incoming_handler(handler):
         pass
 
 
-@register(outgoing=True, pattern=r"^Fltr (.*)")
+@register(outgoing=True, pattern=r"^.filter (.*)")
 async def add_new_filter(new_handler):
     """ For .filter command, allows adding new filters in a chat """
     try:
@@ -82,7 +82,7 @@ async def add_new_filter(new_handler):
         await new_handler.edit(success.format(keyword, 'Disini'))
 
 
-@register(outgoing=True, pattern=r"^Stp (.*)")
+@register(outgoing=True, pattern=r"^.stop (.*)")
 async def remove_a_filter(r_handler):
     """ For .stop command, allows you to remove a filter from a chat. """
     try:
@@ -122,7 +122,7 @@ async def kick_marie_filter(event):
             BOTLOG_CHATID, "Saya Membersihkan Semua Filter Bot Di " + str(event.chat_id))
 
 
-@register(outgoing=True, pattern="^Fltrs$")
+@register(outgoing=True, pattern="^.filters$")
 async def filters_active(event):
     """ For .filters command, lists all of the active filters in a chat. """
     try:
@@ -143,14 +143,14 @@ async def filters_active(event):
 
 CMD_HELP.update({
     "filter":
-    "`Fltrs`\
-    \nUsage: Melihat filter RAM UBOT yang aktif di obrolan.\
-    \n\n`Fltr` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
+    "`.filters`\
+    \nUsage: Melihat filter BAGASKARA-UBOT yang aktif di obrolan.\
+    \n\n`.filter` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
     \nUsage: Membuat filter di obrolan.\
     \nBot Akan Membalas Jika Ada Yang Menyebut 'keyword' yang dibuat.\
     \nBisa dipake ke media/sticker/vn/file.\
-    \n\n`Stp` <keyword>\
-    \nUsage: Untuk Nonaktifkan Filter.\
+    \n\n`.stop` <keyword>\
+    \nUsage: Untuk Nonaktifkan Filter dalam obrolan.\
     \n\n`.clrallbot` <marie/rose>\
     \nUsage: Menghapus semua filter yang ada di bot grup (Saat ini bot yang didukung: Marie, Rose.) dalam obrolan."
 })
