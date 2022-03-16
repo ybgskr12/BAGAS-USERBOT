@@ -1,4 +1,4 @@
-FROM vckyouuu/geezprojects:buster
+FROM ramadhani892/ram-ubot:slim-buster
 
 RUN git clone -b BAGAS-USERBOT https://github.com/ybgskr12/BAGAS-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
