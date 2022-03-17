@@ -9,5 +9,3 @@ WORKDIR /root/userbot
 RUN /bin/sh -c pip3 install -r https://raw.githubusercontent.com/ybgskr12/BAGAS-USERBOT/BAGAS-USERBOT/requirements.txt
 
 EXPOSE 80 443
-
-CMD ["python3", "-m", "userbot"]
