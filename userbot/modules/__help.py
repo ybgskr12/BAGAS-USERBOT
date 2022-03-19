@@ -41,6 +41,6 @@ async def yardim(event):
                 "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan.`"
             )
     except BaseException:
-            await edit_delete(event,
+            await event.edit(event,
                               f"** Sepertinya obrolan atau bot ini tidak mendukung inline mode.**"
                               )
