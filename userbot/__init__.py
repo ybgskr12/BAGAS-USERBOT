@@ -472,9 +472,10 @@ def paginate_help(page_number, loaded_modules, prefix):
 # From Kyuraxp kyura-userbot
 with bot:
     try:
-        bot(JoinChannelRequest("@kyurasupport2"))
+        bot(JoinChannelRequest("@loveisfuckedup"))
         bot(JoinChannelRequest("@allfucek"))
         bot(JoinChannelRequest("@mutualanyagesya"))
+        bot(JoinChannelRequst("@JoniSupport"))
 
         tgbot = TelegramClient(
             "TG_BOT_TOKEN",
