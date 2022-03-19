@@ -91,7 +91,7 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("`Connecting to server...`")
-    await pong.edit("💀")
+    await pong.edit("🖕🏻")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -121,7 +121,7 @@ async def pingme(pong):
         f"`%sms` \n"
         f"✨ **Uᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
-        f"✠➲ **Oᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
+        f"😎 **Oᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
     )
 
 
@@ -380,7 +380,7 @@ async def redis(pong):
         f"**➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : ** %sms  \n"
         f"**➾ʙʀᴀɴᴄʜ : **🔥Bagaskara-Ubot🔥 \n" % (duration)) 
 
-@register(outgoing=True, pattern="^!uping$")
+@register(outgoing=True, pattern="^.uping$")
 async def pingme(pong):
     """ For !ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -461,5 +461,5 @@ CMD_HELP.update({
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.speed` or `.sping` or `.sinyal` or `.bping`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
-         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pong`\
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pong` or `!helbot`\
          \n↳ : Sama Seperti Perintah Ping."})
