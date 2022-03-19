@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 
 
-@register(outgoing=True, pattern=r"^\.help")
+@register(outgoing=True, pattern=r"^\.xhelp")
 async def yardim(event):
     try:
         tgbotusername = BOT_USERNAME
