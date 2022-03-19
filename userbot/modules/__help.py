@@ -31,7 +31,7 @@ async def yardim(event):
     try:
         tgbotusername = BOT_USERNAME
         if tgbotusername is not None:
-            results = await event.client.inline_query(tgbotusername, "@BAGASKARASUPPORTBOT")
+            results = await event.client.inline_query(tgbotusername, "@RAM_UBOT")
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
             )
@@ -40,6 +40,7 @@ async def yardim(event):
             await event.edit(
                 "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan.`"
             )
-    except Exception:
-        return await event.edit(
-            "`Anda tidak dapat mengirim hasil sebaris dalam hal ini ke chat (disebabkan oleh Mengirim Inline Sebaris)`"
+    except BaseException:
+            await edit_delete(event,
+                              f"** Sepertinya obrolan atau bot ini tidak mendukung inline mode.**"
+                              )
