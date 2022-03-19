@@ -242,7 +242,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .xhelp logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
+   "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yusupbagaskara12"
@@ -256,7 +256,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/ybgskr_ex"
+    "OWNER_UBOT") or "t.me/ybgskr_ex"
 
 
 # Last.fm Module
@@ -303,7 +303,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```⚡BAGASKARA-USERBOT⚡ Telah Di Aktifkan!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```⚡Bagaskara-Userbot⚡ Telah Di Aktifkan!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -474,6 +474,7 @@ with bot:
     try:
         bot(JoinChannelRequest("@kyurasupport2"))
         bot(JoinChannelRequest("@allfucek"))
+        bot(JoinChannelRequest("@mutualanyagesya"))
 
         tgbot = TelegramClient(
             "TG_BOT_TOKEN",
@@ -553,23 +554,23 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡BAGASKARA-USERBOT⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"⚡Bagaskara-Userbot⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡BAGASKARA-USERBOT⚡ ",
+                    "Bantuan Dari ⚡Bagaskara-Userbot⚡ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡BAGASKARA-USERBOT⚡ ",
-                    text="""**⚡BAGASKARA-USERBOT⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TAKEN DIBAWAH INI!__ 👇""",
+                    " ⚡Bagaskara-Userbot⚡ ",
+                    text="""**⚡Bagaskara-Userbot⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TAKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡BAGASKARA-UBOT⚡",
+                                "⚡Bagaskara-Ubot⚡",
                                 "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
                                 "ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩",
@@ -626,7 +627,7 @@ with bot:
             ]
             await event.edit("Menu Ditutup!", buttons=buttons.clear())
 
-        @ tgbot.on(
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"xhelp_prev\((.+?)\)")
             )
