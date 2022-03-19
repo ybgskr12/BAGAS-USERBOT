@@ -8,7 +8,7 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("**SURAT ALFATIHAH**")
+    await typew.edit("**audzūbillãh himinàs'syaitõn-'nirojīm**")
     sleep(1)
     await typew.edit("**bismillāhir-raḥmānir-raḥīm**")
     sleep(1)
