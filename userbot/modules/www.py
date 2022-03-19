@@ -33,7 +33,7 @@ absen = [
     "**Hadir Bagas Sayang** 😘",
     "**Hadir Kak Bagas Maap Telat** 🥺",
     "**Puji Tuhan Bagaskara** 🙏🏻",
-    "**Hiduo Lord Bagaskara** 😈",
+    "**Hidup Lord Bagaskara** 😈",
 ]
 
 pacar = [
