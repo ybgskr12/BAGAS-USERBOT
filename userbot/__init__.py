@@ -303,7 +303,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```⚡Bagaskara-Userbot⚡ Telah Di Aktifkan!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```⚡ʙᴀɢᴀѕᴋᴀʀᴀ-ᴜѕᴇʀʙᴏᴛ⚡ Telah Di Aktifkan!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada Heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -528,7 +528,7 @@ with bot:
                                         "t.me/loveisfuckedup"),
                              Button.url(f"{EMOJI_HELP} GROUP SUPPORT {EMOJI_HELP}",
                                         "t.me/allfucek")],
-                             [Button.url("⚡OWNER-BOT⚡",
+                             [Button.url("ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩",
                                         "t.me/ybgskr_ex")],
                     ]
                 )
@@ -555,7 +555,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡Bagaskara-Userbot⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"⚡Bagaskara-Userbot⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **Modules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
@@ -567,7 +567,7 @@ with bot:
             else:
                 result = builder.article(
                     " ⚡Bagaskara-Userbot⚡ ",
-                    text="""**⚡Bagaskara-Userbot⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TAKEN DIBAWAH INI!__ 👇""",
+                    text="""**⚡Bagaskara-Userbot⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TEKAN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
