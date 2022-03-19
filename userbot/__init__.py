@@ -303,7 +303,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```⚡BAGASKARA-USERBOT⚡ TELAH AKTIF!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```⚡BAGASKARA-USERBOT⚡ Telah Di Aktifkan!!\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -495,7 +495,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Ram_ubot")
+                    results = await event.client.inline_query(tgbotusername, "@BAGASKARASUPPORTBOT")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -519,7 +519,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**⚡BAGASKARA-UBOT⚡**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"WOI DJANCOK [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**⚡BAGASKARA-UBOT⚡**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} CHANNEL {EMOJI_HELP}",
@@ -540,7 +540,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**NGENTOT!!**\n `{ms}ms`",
+                    f"**DJANCOK!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
@@ -548,7 +548,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@Ram_ubot"):
+            if event.query.user_id == uid and query.startswith("@BAGASKARASUPPORTBOT"):
                 buttons = paginate_help(0, dugmeler, "xhelp")
                 result = builder.photo(
                     file=ramlogo,
@@ -565,7 +565,7 @@ with bot:
             else:
                 result = builder.article(
                     " ⚡BAGASKARA-USERBOT⚡ ",
-                    text="""**⚡BAGASKARA-USERBOT⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    text="""**⚡BAGASKARA-USERBOT⚡\n\n Anda Bisa Membuat Bagas Userbot Anda Sendiri Dengan Cara:** __TAKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
@@ -602,7 +602,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # @Ram_ubot
+            if event.query.user_id == uid:  # @BAGASKARASUPPORTBOT
                 # https://t.me/TelethonChat/115200
                 await event.edit(
                     file=ramlogo,
@@ -658,7 +658,7 @@ with bot:
                     help_string = (
                         str(CMD_HELP[modul_name]).replace(
                             '`', '')[:180] + "..."
-                        + "\n\nBaca Text Berikutnya Ketik .help "
+                        + "\n\nBaca Text Berikutnya Ketik .xhelp "
                         + modul_name
                         + " "
                   )
