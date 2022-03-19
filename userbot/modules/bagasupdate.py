@@ -128,7 +128,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**BAGASKARA-UBOT Telah Di Perbarui ツ**")
+            "**BAGASKARA-USERBOT Telah Di Perbarui ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
