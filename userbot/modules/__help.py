@@ -19,7 +19,7 @@
 #    <t.me/TheFlicksUserbot>
 
 
-from userbot import BOT_USERNAME
+from userbot import BOT_USERNAME, CMD_HELP, bot
 from userbot.events import register
 
 CUSTOM_HELP_EMOJI = "✘"
