@@ -1,5 +1,6 @@
 #create by Bagaskara
 #Yang Copas Doang, Lu kontol
+
 from time import sleep
 from userbot import CMD_HELP
 from userbot.events import register
@@ -14,6 +15,7 @@ async def typewriter(typew):
     await typew.edit("`Lu Tau ga ? Lu itu Djancok Gausah Sok Keras !`")
     sleep(1)
     await typew.edit("`Muka Lu Kayak Kontol `")
+
 # Create by myself @ybgskr_ex 
 
 @register(outgoing=True, pattern='^.huek(?: |$)(.*)')
@@ -31,12 +33,12 @@ async def typewriter(typew):
     await typew.edit("`Makanya Jadi Orang Cakepan Dikit Kontol !`")
     sleep(2)
     await typew.edit("`Mending Lu Diem Unggas !!`")
+
 # Create by myself @ybgskr_ex
 
 
-CMD_HELP.jancok({
-    "djancok":
-    "`.jancok`\
-    \nUsage: liat aja.\
-    "`.huek`\
-    \nUsage: liat aja.\
+CMD_HELP.update({
+    "djancom":
+    "`.jancok`; `.huek`\
+    \nUsage: liat aja."
+})
