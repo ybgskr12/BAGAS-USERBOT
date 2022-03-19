@@ -26,7 +26,7 @@ CUSTOM_HELP_EMOJI = "✘"
 
 
 @register(outgoing=True, pattern=r"^\.help")
-async def cmd_list(event):
+async def yardim(event):
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
