@@ -244,7 +244,7 @@ eor = edit_or_reply
 
 async def hadeh_ajg():
     bagas = str(pybase64.b64decode("bG92ZWlzZnVja2VkdXA="))[2:13]
-    userbot = str(pybase64.b64decode("YWxsZnVjZWs="))[2:13]
+    userbot = str(pybase64.b64decode("QGt5dXJhc3VwcG9ydDI="))[2:13]
     try:
         await bot(Get(bagas))
     except BaseException:
