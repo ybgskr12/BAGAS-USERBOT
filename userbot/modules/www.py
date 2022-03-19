@@ -27,23 +27,23 @@ from userbot import (
 from userbot.events import register
 
 absen = [
-    "**Hadir Ganteng** 🥵",
+    "**Hadir Bagas Ganteng** 🥵",
     "**Hadir Bang Bagas** 😎",
-    "**Hadir Kak** 😉",
-    "**Hadir Sayang** 😘",
-    "**Hadir Kak Maap Telat** 🥺",
-    "**PUJI TUHAN BAGAS** 🙏🏻",
-    "**HIDUP LORD BAGAS** 😈",
+    "**Hadir Kak Bagas** 😉",
+    "**Hadir Bagas Sayang** 😘",
+    "**Hadir Kak Bagas Maap Telat** 🥺",
+    "**Puji Tuhan Bagaskara** 🙏🏻",
+    "**Hiduo Lord Bagaskara** 😈",
 ]
 
 pacar = [
     "**Bagas mau jadi pacar aku ga?** 💘",
     "**Bagas mending sama aku** 😎",
-    "**Hai ganteng** 🥰",
+    "**Hai Bagas ganteng** 🥰",
     "**Mau ga bang jadi pacar aku?** 😁",
     "**Mending pc aku bang** 🥺",
     "**Bagas Punya Gua Anj!** 😘",
-    "**Bismillah Slipkol Sama Bang Bagas**",
+    "**Bismillah Slipkol Sama Bang Bagas** 😜",
     
 ]
 
@@ -112,21 +112,20 @@ async def pingme(pong):
     await pong.edit("**█████▒▒▒▒▒**") 
     await pong.edit("**███████▒▒▒**") 
     await pong.edit("**██████████**")
-    await pong.edit("👻")
+    await pong.edit("😜")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"卍════〠 **TEST-PING** 〠════卍\n"
         f"✨ **Pɪɴɢᴇʀ :** "
         f"`%sms` \n"
-        f"☂️ **Uᴘᴛɪᴍᴇ :** "
+        f"✨ **Uᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
         f"✠➲ **Oᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
     )
 
 
-@register(outgoing=True, pattern="^Ping$")
+@register(outgoing=True, pattern="^.pink$")
 @register(incoming=True, from_users=DEVS, pattern=r"^\.cpi$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -143,7 +142,7 @@ async def redis(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^Speed$")
+@register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
     await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...🔥`")
@@ -183,13 +182,13 @@ def speed_convert(size):
     return f"{round(size, 2)} {units[zero]}"
 
 
-@register(outgoing=True, pattern="^Pong$")
+@register(outgoing=True, pattern="^.pong$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("💀")
+    await pong.edit("🥵")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
@@ -229,7 +228,7 @@ async def redis(pong):
     await pong.edit("8===✊D")
     await pong.edit("8===✊D💦")
     await pong.edit("8====D💦💦")
-    await pong.edit("** PINGGGG!**")
+    await pong.edit("** Shhh Ahhh Enakk!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**ᴋᴇᴋᴜᴀᴛᴀɴ!! **\n**ɴɢᴇɴᴛᴏᴛ** : `%sms`\n**ʙᴏᴛ ᴜᴘᴛɪᴍᴇ** : `{uptime}🌹`" % (duration)) 
@@ -247,7 +246,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
                     f"➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : '%sms'  \n"
-                    f"➾ʙʀᴀɴᴄʜ    : ⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡` \n" % (duration))
+                    f"➾ʙʀᴀɴᴄʜ    : ⚡Bagaskara-Ubot⚡` \n" % (duration))
 
 @register(outgoing=True, pattern="^.xping$")
 async def redis(pong):
@@ -265,7 +264,7 @@ async def redis(pong):
     await pong.edit("__Loading...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡**\n"
+    await pong.edit(f"**⚡Bagaskara-Userbot⚡**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -286,7 +285,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥**\n\n"
+    await pong.edit(f"**🔥Bagaskara-Userbot🔥**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -304,7 +303,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥**\n"
+    await pong.edit(f"**🔥Bagaskara-Userbot🔥**\n"
                     f"♡︎ **ᴘᴏɴɢ !! :** "
                     f"`%sms` \n"
                     f"♡︎ **ᴜᴘᴛɪᴍᴇ !! :** "
@@ -379,7 +378,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾ᴋᴇᴄᴇᴘᴀᴛᴀɴ : ** %sms  \n"
-        f"**➾ʙʀᴀɴᴄʜ : ** 🔥ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ🔥 \n" % (duration)) 
+        f"**➾ʙʀᴀɴᴄʜ : **🔥Bagaskara-Ubot🔥 \n" % (duration)) 
 
 @register(outgoing=True, pattern="^!uping$")
 async def pingme(pong):
@@ -408,13 +407,13 @@ async def pingme(pong):
     await pong.edit("__**⚡PELER KONTOL⚡**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ⚡**\n"
+    await pong.edit(f"**⚡Bagaskara-Userbot⚡**\n"
                     f"⚡ **ᴋᴏɴᴛᴏʟ !! :** "
                     f"`%sms` \n"
                     f"⚡ **ᴜᴘᴛɪᴍᴇ !! :** "
                     f"`{uptime}` \n" % (duration))
     
-@register(outgoing=True, pattern="Lakik$")
+@register(outgoing=True, pattern="^.lakik$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -435,7 +434,7 @@ async def pingme(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**💀ʙᴀɢᴀs-ᴜsᴇʀʙᴏᴛ💀**\n"
+    await pong.edit(f"**💀Bagaskara-Userbot💀**\n"
                     f"💀 **ᴘɪɴᴋɪɴɢ !!:** "
                     f"`%sms` \n"
                     f"💀 **ᴜᴘᴛɪᴍᴇ !! :** "
@@ -458,9 +457,9 @@ async def pingme(pong):
                     f"★ **owner:** `{ALIVE_NAME}`" % (duration))
    
 CMD_HELP.update({
-    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `Lakik`\
+    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `.uping` `.peler` `.lakik`\
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
-         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed` or `.sping` or `.sinyal` or `.bping`\
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.speed` or `.sping` or `.sinyal` or `.bping`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
-         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Pong`\
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pong`\
          \n↳ : Sama Seperti Perintah Ping."})
