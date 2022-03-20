@@ -22,9 +22,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**ihdinaṣ-ṣirāṭal-mustaqīm**")
     sleep(1)
-    await typew.edit(
-        "**ṣirāṭallażīna an'amta 'alaihim gairil-magḍụbi 'alaihim wa laḍ-ḍāllīn**"
-    )
+    await typew.edit("**ṣirāṭallażīna an'amta 'alaihim gairil-magḍụbi 'alaihim wa laḍ-ḍāllīn**")
     sleep(1)
     await typew.edit("**Aamiin..**")
 
