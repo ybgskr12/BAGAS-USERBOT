@@ -26,7 +26,7 @@ from userbot.utils import edit_or_reply
 from userbot.events import register
 
 
-@register(pattern=".xhelp")
+@register(pattern=".helpme")
 async def _(event):
     if event.fwd_from:
         return
