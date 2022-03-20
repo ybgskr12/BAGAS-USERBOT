@@ -13,6 +13,12 @@ from userbot.events import register
 NO_ADMIN = "`Maaf Kamu Bukan Admin!"
 
 
+def vcmention(user):
+    full_name = get_display_name(user)
+    if not isinstance(user, types.User):
+        return full_name
+    return f"[{full_name}](tg://user?id={user.id})"
+
 async def get_call(event):
     sky = await event.client(getchat(event.chat_id))
     skyzu = await event.client(getvc(sky.full_chat.call, limit=1))
