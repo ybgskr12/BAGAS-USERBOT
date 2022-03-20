@@ -57,6 +57,6 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "surat":
-    "`.alfatihah` ; `.ayatkursi`
+    "`.alfatihah` ; `.ayatkursi`\
     \nUsage: liat aja."
 })
