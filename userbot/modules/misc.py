@@ -125,6 +125,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
+        f"➣ **DEPLOY VIA BOT HEROKU IN TELEGRAM :** [DEPLOY TO HEROKU BOT](https://telegram.dog/XTZ_HerokuBot?start=eWJnc2tyMTIvQkFHQVMtVVNFUkJPVCBCQUdBUy1VU0VSQk9U)\n"
         f"➣ **GET STRING SESSION TELEGRAM BOT :** [BAGASKARA-STRING](https://t.me/string_bagasbot)\n"
     )
 
