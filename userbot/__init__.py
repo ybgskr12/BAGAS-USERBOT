@@ -240,7 +240,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
-# Default .xhelp logo
+# Default .helpme logo
 HELP_LOGO = os.environ.get(
    "ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
 
@@ -550,7 +550,7 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith("@BAGASKARASUPPORTBOT"):
-                buttons = paginate_help(0, dugmeler, "xhelp")
+                buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
@@ -582,7 +582,7 @@ with bot:
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"xhelp_next\((.+?)\)")
+                data=re.compile(rb"helpme_next\((.+?)\)")
             )
         )
         async def on_plug_in_callback_query_handler(event):
@@ -590,7 +590,7 @@ with bot:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
-                    current_page_number + 1, dugmeler, "xhelp")
+                    current_page_number + 1, dugmeler, "helpme")
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
@@ -599,7 +599,7 @@ with bot:
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"xhelp_close\((.+?)\)")
+                data=re.compile(rb"helpme_close\((.+?)\)")
             )
         )
         async def on_plug_in_callback_query_handler(event):
@@ -629,7 +629,7 @@ with bot:
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"xhelp_prev\((.+?)\)")
+                data=re.compile(rb"helpme_prev\((.+?)\)")
             )
         )
         async def on_plug_in_callback_query_handler(event):
@@ -637,7 +637,7 @@ with bot:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
-                    current_page_number - 1, dugmeler, "xhelp"  # pylint:disable=E0602
+                    current_page_number - 1, dugmeler, "helpme"  # pylint:disable=E0602
                 )
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
@@ -659,7 +659,7 @@ with bot:
                     help_string = (
                         str(CMD_HELP[modul_name]).replace(
                             '`', '')[:180] + "..."
-                        + "\n\nBaca Text Berikutnya Ketik .xhelp "
+                        + "\n\nBaca Text Berikutnya Ketik .helpme "
                         + modul_name
                         + " "
                   )
