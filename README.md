@@ -31,7 +31,7 @@
 ### AMBIL STRING DI BAWAH INI:
 
 ##
-[![BAGAS-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ybgskr12/Bagas-String-1#main.py)
+[![BAGAS-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ybgskr12/Bagas-String)
 ##
   
 ## DEPLOY TO HEROKU 💜
