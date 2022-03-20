@@ -25,7 +25,7 @@ async def var(m):
 
 
 CMD_HELP.update({
-    "Bagashelper":
+    "bagashelper":
     "`.helpmy`\
 \nPenjelasan: Bantuan Untuk Bagaskara-Userbot.\
 \n`.rvars`\
