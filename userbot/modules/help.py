@@ -26,7 +26,7 @@ async def help(rambot):
             await rambot.edit(str(CMD_HELP[args]))
         else:
             await rambot.edit("**`NGETIK YANG BENER NGENTOT!`**")
-            await asyncio.sleep(50)
+            await asyncio.sleep(200)
             await rambot.delete()
     else:
         string = ""
