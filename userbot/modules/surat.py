@@ -54,8 +54,9 @@ async def typewriter(typew):
 
 # Create by @jooganteng
 
+
 CMD_HELP.update({
-        "surat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.alfatihah`\
-    \n↳ : Menulis Surat Alfatihah."
-        "surat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ayatkursi`\
-    \n↳ : Menulis Ayat Kursi."})
+    "surat":
+    "`.alfatihah` ; `.ayatkursi`
+    \nUsage: liat aja."
+})
