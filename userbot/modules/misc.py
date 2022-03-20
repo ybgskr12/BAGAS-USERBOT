@@ -125,8 +125,8 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"➣ **DEPLOY VIA BOT HEROKU IN TELEGRAM :** [DEPLOY TO HEROKU BOT](https://telegram.dog/XTZ_HerokuBot?start=eWJnc2tyMTIvQkFHQVMtVVNFUkJPVCBCQUdBUy1VU0VSQk9U)\n"
-        f"➣ **GET STRING SESSION TELEGRAM BOT :** [BAGASKARA-STRING](https://t.me/string_bagasbot)\n"
+        f"➣ **DEPLOY VIA BOT HEROKU IN TELEGRAM :** [klik disini](https://telegram.dog/XTZ_HerokuBot?start=eWJnc2tyMTIvQkFHQVMtVVNFUkJPVCBCQUdBUy1VU0VSQk9U)\n"
+        f"➣ **GET STRING SESSION TELEGRAM BOT :** [klik disini](https://t.me/string_bagasbot)\n"
     )
 
 
@@ -283,7 +283,7 @@ CMD_HELP.update({
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
     \n↳ : Menampilan link Repository Bagaskara-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Bagaskara-Userbot Via Bot Telegram",
+    \n↳: Menampilkan link String dan Deploy Bagaskara-Userbot Via Bot Telegram",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
