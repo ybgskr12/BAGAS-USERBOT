@@ -37,7 +37,7 @@ async def typewriter(typew):
 # Create by myself @ybgskr_ex
 
 @register(outgoing=True, pattern='^.galak(?: |$)(.*)')
-    async def typewriter(typew):
+async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
     await typew.edit("**Jangan kek anjing lu pada !**")
