@@ -288,8 +288,10 @@ CMD_HELP.update({
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
     \n↳ : Menampilan link Repository Bagaskara-Userbot.",
-    "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string` ; `.deploy`\
-    \n↳: Menampilkan link String Via Web dan Deploy Bagaskara-Userbot Via Bot Telegram",
+    "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
+    \n↳: Menampilkan link String Via Web atau Replit",
+    "deploy": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.deploy`\
+    \n↳: Menampilkan link Deploy Bagaskara-Userbot Via Bot Telegram",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
