@@ -1,5 +1,7 @@
 # Credits: cat userbot
 # Ported by @vckyaz
+# fix by : RAM-UBOT
+
 
 import asyncio
 
@@ -9,7 +11,7 @@ from userbot import BOTLOG_CHATID
 from userbot import CMD_HELP, LOGS, bot
 from userbot.modules.sql_helper import no_log_pms_sql
 from userbot.modules.sql_helper.globals import addgvar, gvarstatus
-from userbot.modules.vcg import vcmention
+from userbot.modules.ramcals import vcmention
 from userbot.utils import _format
 from telethon import events
 from userbot.utils.tools import media_type
@@ -121,7 +123,7 @@ async def log_tagged_messages(event):
         )
 
 
-@register(pattern=r"^\.save(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.save(?: |$)(.*)")
 async def log(log_text):
     if BOTLOG_CHATID:
         if log_text.reply_to_msg_id:
@@ -140,7 +142,7 @@ async def log(log_text):
             "**Untuk Menggunakan Module ini, Anda Harus Mengatur** `BOTLOG_CHATID` **di Config Vars**")
 
 
-@register(pattern=r"^\.log$")
+@register(outgoing=True, pattern=r"^\.log$")
 async def set_no_log_p_m(event):
     if BOTLOG_CHATID != -100:
         chat = await event.get_chat()
@@ -149,7 +151,7 @@ async def set_no_log_p_m(event):
             await event.edit("**LOG Chat dari Grup ini Berhasil Diaktifkan**")
 
 
-@register(pattern=r"^\.nolog$")
+@register(outgoing=True, pattern=r"^\.nolog$")
 async def set_no_log_p_m(event):
     if BOTLOG_CHATID != -100:
         chat = await event.get_chat()
@@ -158,7 +160,7 @@ async def set_no_log_p_m(event):
             await event.edit("**LOG Chat dari Grup ini Berhasil Dimatikan**")
 
 
-@register(pattern=r"^\.pmlog (on|off)$")
+@register(outgoing=True, pattern=r"^\.pmlog (on|off)$")
 async def set_pmlog(event):
     if BOTLOG_CHATID == -100:
         return await event.edit("**Untuk Menggunakan Module ini, Anda Harus Mengatur** `BOTLOG_CHATID` **di Config Vars**")
@@ -173,18 +175,18 @@ async def set_pmlog(event):
         PMLOG = True
     if PMLOG:
         if h_type:
-            await event.edit("**PM LOG Sudah Diaktifkan**")
+            await event.edit("**PM LOG Lu Udah aktif ngentodddd!!**")
         else:
             addgvar("PMLOG", h_type)
-            await event.edit("**PM LOG Berhasil Dimatikan**")
+            await event.edit("**PM LOG Lu udh mati anjinggggg!!!**")
     elif h_type:
         addgvar("PMLOG", h_type)
-        await event.edit("**PM LOG Berhasil Diaktifkan**")
+        await event.edit("**PM LOG Udah aktif, Awas ada chatsex masuk tod**")
     else:
-        await event.edit("**PM LOG Sudah Dimatikan**")
+        await event.edit("**PM LOG Dimatikan, Takut ada chatsex masuk ya??**")
 
 
-@register(pattern=r"^\.gruplog (on|off)$")
+@register(outgoing=True, pattern=r"^\.gruplog (on|off)$")
 async def set_gruplog(event):
     if BOTLOG_CHATID == -100:
         return await event.edit("**Untuk Menggunakan Module ini, Anda Harus Mengatur** `BOTLOG_CHATID` **di Config Vars**")
@@ -199,15 +201,15 @@ async def set_gruplog(event):
         GRUPLOG = True
     if GRUPLOG:
         if h_type:
-            await event.edit("**Group Log Sudah Diaktifkan**")
+            await event.edit("**Group Log Lu udah idup kontoll!!!**")
         else:
             addgvar("GRUPLOG", h_type)
-            await event.edit("**Group Log Berhasil Dimatikan**")
+            await event.edit("**Group Log Udah mati ngentod!!!**")
     elif h_type:
         addgvar("GRUPLOG", h_type)
-        await event.edit("**Group Log Berhasil Diaktifkan**")
+        await event.edit("**Group Log Sudah aktif, Awas Ada talent minta Vn desah masuk!!!**")
     else:
-        await event.edit("**Group Log Sudah Dimatikan**")
+        await event.edit("**Group Log Dimatikan, Takut ada talent sangean ya?**")
 
 
 CMD_HELP.update(
