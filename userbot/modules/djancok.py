@@ -46,8 +46,50 @@ async def typewriter(typew):
 
 #Reqwest by Kemal Luqman
 
+@register(outgoing=True, pattern='^.wh(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("**Gua kasih tau nih ya !**")
+    sleep(2)
+    await typew.edit("**kalo ngomong²gin kasta a !**")
+    sleep(2)
+    await typew.edit("**derajat lu tu Ama WH beda kntol**")
+    sleep(2)
+    await typew.edit("**nih ya bapak lu Mak lu itu babu gua !**")
+    sleep(2)
+    await typew.edit("**sering ngemut kntol gua sering ngelap memek cewe gual !**")
+    sleep(2)
+    await typew.edit("**terus ni ya mending lu kerja sama gua !!**")
+    sleep(2)
+    await typew.edit("**kasiaan bego rumah lu tu dari kayu !!**")
+    sleep(2)
+    await typew.edit("**bocah micin gblk yg bisa nya main tiktok sama fb !!**")
+    sleep(2)
+    await typew.edit("**yg kadang² jadi transgender yekan !!**")
+    sleep(2)
+    await typew.edit("**keluarga lu udh gua kencingin 7 turunan !!**")
+    sleep(2)
+    await typew.edit("**emak lu aja pas sange minta ngentot ama gw !!**")
+    sleep(2)
+    await typew.edit("**bapaklu rela jadi bacni demi ngidupin lu biar bisa makan !!**")
+    sleep(2)
+    await typew.edit("**sedih banget gw liat kehidupan lu yang hina itu !!**")
+    sleep(2)
+    await typew.edit("**mending sini abang ajarin jadi wibu yang berkelas dek !!**")
+    sleep(2)
+    await typew.edit("**dan ter keren !!**")
+    sleep(2)
+    await typew.edit("**Wibu Human Nih Boss Senggol Dong !!**")
+    sleep(2)
+    await typew.edit("**Ntar Di Senggol Nangess !!**")
+    sleep(2)
+    await typew.edit("**Bhakssss !!**")
+
+#req wibu human create by @Ybyb12
+
 CMD_HELP.update({
     "djancok":
-    "`.jancok` ; `.huek` ; `.galak`\
-    \nUsage: liat aja."
+    "`.jancok` ; `.huek` ; `.wh` ; `.galak`\
+    \nUsage: liat aja goblok."
 })
