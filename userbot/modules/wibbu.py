@@ -1,0 +1,121 @@
+#Recode By Bagaskara
+
+from time import sleep
+
+from userbot import CMD_HELP
+from userbot.events import register
+
+
+@register(outgoing=True, pattern="^.wibu2(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(0.07)
+    await typew.edit("**Ah Djancok Ada Wibu😨**")
+    sleep(0.07)
+    await typew.edit("**Sekuat Apapun Aku😭**")
+    sleep(0.07)
+    await typew.edit("**Jika Ada Wibu😨**")
+    sleep(0.07)
+    await typew.edit("**Aku Harus Lari🏃🏻**")
+    sleep(0.07)
+    await typew.edit("**Lari Cokkk Ada Wibuuu🏃🏻**")
+    sleep(0.07)
+    await typew.edit("**Argghh Bangkeee!🏃🏻**")
+    sleep(0.07)
+    await typew.edit("**Lari Sekencang-Kencangnya🤸🏻**")
+    sleep(0.07)
+    await typew.edit("**Karena Kita Sedang🤾🏻**")
+    sleep(0.07)
+    await typew.edit("**Menghadapi Ras Terkuat🤸🏻**")
+    sleep(0.07)
+    await typew.edit("**Yang Ada Di Dunia🏃🏻**")
+    sleep(0.07)
+    await typew.edit("**Wibuuuu🪂**")
+    sleep(0.07)
+    await typew.edit("**Arghhhhhhh🧗🏻**")
+    sleep(0.07)
+    await typew.edit("**Istrinya Kartun🤾🏻**")
+    sleep(0.07)
+    await typew.edit("**Dasar Wibu😨**")
+    sleep(0.07)
+    await typew.edit("**Maap Wibu🤼‍♂️**")
+    sleep(0.07)
+    await typew.edit("**Aku Tidak Akan🤾🏻**")
+    sleep(0.07)
+    await typew.edit("**Mengulanginya Lagi🏃🏻**")
+    sleep(0.07)
+    await typew.edit("**Tapi Bo'ong Hayuuu🤾🏻**")
+    sleep(0.07)
+    await typew.edit("**Dasar Wibu, Istri Kartun🪂**")
+    sleep(1)
+    await typew.edit("**IUHH SANGE KOK SAMA KARTUN😖**")
+
+
+@register(outgoing=True, pattern="^.wibbu(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**WI WIII WIIII WIIII.....**")
+    sleep(1)
+    await typew.edit("__ARGHHH LARI ADA WIBUU!....__")
+    sleep(1)
+    await typew.edit("`🏃                        🏂`")
+    await typew.edit("`🏃                       🏂`")
+    await typew.edit("`🏃                      🏂`")
+    await typew.edit("`🏃                     🏂`")
+    await typew.edit("`🏃   `RUNN ADA WIBU`          🏂`")
+    await typew.edit("`🏃                   🏂`")
+    await typew.edit("`🏃                  🏂`")
+    await typew.edit("`🏃                 🏂`")
+    await typew.edit("`🏃                🏂`")
+    await typew.edit("`🏃               🏂`")
+    await typew.edit("`🏃              🏂`")
+    await typew.edit("`🏃             🏂`")
+    await typew.edit("`🏃            🏂`")
+    await typew.edit("`🏃           🏂`")
+    await typew.edit("`🏃..Help Help..🏂`")
+    await typew.edit("`🏃           🏂`")
+    await typew.edit("`🏃            🏂`")
+    await typew.edit("`🏃             🏂`")
+    await typew.edit("`🏃              🏂`")
+    await typew.edit("`🏃               🏂`")
+    await typew.edit("`🏃                🏂`")
+    await typew.edit("`🏃                 🏂`")
+    await typew.edit("`🏃                  🏂`")
+    await typew.edit("`🏃                   🏂`")
+    await typew.edit("`🏃                    🏂`")
+    await typew.edit("`🏃                     🏂`")
+    await typew.edit("`🏃  Huh-Huh-Huh       🏂`")
+    await typew.edit("`🏃                   🏂`")
+    await typew.edit("`🏃                  🏂`")
+    await typew.edit("`🏃                 🏂`")
+    await typew.edit("`🏃                🏂`")
+    await typew.edit("`🏃               🏂`")
+    await typew.edit("`🏃              🏂`")
+    await typew.edit("`🏃             🏂`")
+    await typew.edit("`🏃            🏂`")
+    await typew.edit("`🏃           🏂`")
+    await typew.edit("`🏃          🏂`")
+    await typew.edit("`🏃         🏂`")
+    await typew.edit("__DJANCOK KOK MAKIN DEKET SI WIBU__")
+    sleep(1)
+    await typew.edit("`🏃       🏂`")
+    await typew.edit("`🏃      🏂`")
+    await typew.edit("`🏃     🏂`")
+    await typew.edit("`🏃    🏂`")
+    await typew.edit("**Jingan Untung Ngga Kena**")
+    sleep(1)
+    await typew.edit("🎯")
+    sleep(2)
+    await typew.edit("**Mampus Kau Wibu**")
+
+
+CMD_HELP.update(
+    {
+        "wibu": "**Modules** - `wibu`\
+        \n\n Cmd : `.wibbu`\
+        \nUsage : ngatain wibu\
+        \n\n Cmd : `.wibu2`\
+        \nUsage : ngatain wibu 2\
+    "
+    }
+)
