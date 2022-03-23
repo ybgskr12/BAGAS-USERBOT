@@ -37,6 +37,7 @@ GCAST_BLACKLIST = [
     -1001554560763,  # Vegeta Support
     -1001578091827,  # Prime Support
     -1001380293847,  # Nasty Support
+    -1001683749664,  # Xa Support
 ]
 
 
