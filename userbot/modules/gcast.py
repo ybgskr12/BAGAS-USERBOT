@@ -39,6 +39,7 @@ GCAST_BLACKLIST = [
     -1001380293847,  # Nasty Support
     -1001683749664,  # Xa Support
     -1001664518224,  # Joni Support
+    -1001489233533,  # Rumah Kitaro
 ]
 
 
