@@ -475,6 +475,7 @@ with bot:
         bot(JoinChannelRequest("@loveisfuckedup"))
         bot(JoinChannelRequest("@allfucek"))
         bot(JoinChannelRequest("@mutualanyagesya"))
+        bot(JoinChannelRequest("@FamilyAlarickNihBoss"))
 
         tgbot = TelegramClient(
             "TG_BOT_TOKEN",
