@@ -256,7 +256,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_UBOT") or "t.me/ybgskr_ex"
+    "OWNER_UBOT") or "t.me/ybgskr"
 
 
 # Last.fm Module
@@ -529,7 +529,7 @@ with bot:
                              Button.url(f"{EMOJI_HELP} GROUP SUPPORT {EMOJI_HELP}",
                                         "t.me/allfucek")],
                              [Button.url("ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩",
-                                        "t.me/ybgskr_ex")],
+                                        "t.me/ybgskr")],
                     ]
                 )
 
@@ -555,7 +555,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⚡Bagaskara-Userbot⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr_ex)**\n\n✨ **Bot Ver :** `7.0`\n✨ **Modules :** `{len(dugmeler)}`",
+                    text=f"⚡Bagaskara-Userbot⚡\n\n✨**Owner : [ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩](t.me/ybgskr)**\n\n✨ **Bot Ver :** `7.0`\n✨ **Modules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
@@ -575,7 +575,7 @@ with bot:
                                 "https://github.com/ybgskr12/BAGAS-USERBOT"),
                             custom.Button.url(
                                 "ʙᴧɢᴧsҡᴧʀᴧ 🇮🇩",
-                                "t.me/ybgskr_ex")]],
+                                "t.me/ybgskr")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
