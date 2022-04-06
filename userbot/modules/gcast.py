@@ -41,6 +41,7 @@ GCAST_BLACKLIST = [
     -1001664518224,  # Joni Support
     -1001489233533,  # Rumah Kitaro
     -1001538752127,  # Abing Support
+    -1001347414136,  # Musikku Support
 ]
 
 
