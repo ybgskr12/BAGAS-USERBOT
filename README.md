@@ -16,6 +16,7 @@
   [![GitHub issues](https://img.shields.io/github/issues/ybgskr12/BAGAS-USERBOT?&style=plastic&logo=github)](https://github.com/ybgskr12/BAGAS-USERBOT/issues)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ybgskr12/BAGAS-USERBOT?&style=plastic&logo=github)](https://github.com/ybgskr12/BAGAS-USERBOT/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/Randi356/VEGETA-USERBOT?&style=plastic&logo=github)](https://GitHub.com/ybgskr12/BAGAS-USERBOT/graphs/contributors/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ybgskr12/bagas-userbot)](https://hub.docker.com/r/ybgskr12/bagas-userbot/tags)
 
 <p align="center">
 
